@@ -1,0 +1,115 @@
+[
+  {
+    "id": "dhh",
+    "source": "keynote",
+    "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY&t=3510s",
+    "image": "https://i.ytimg.com/vi/vDjW_dRyKXY/hqdefault.jpg",
+    "file": "dhh.jpg",
+    "bytes": 17772
+  },
+  {
+    "id": "perception",
+    "source": "karpathygap",
+    "url": "https://x.com/karpathy/status/2109361546505966046",
+    "image": null,
+    "file": "perception.svg",
+    "bytes": 912,
+    "note": "Original SVG illustration, not a screenshot or quantitative chart."
+  },
+  {
+    "id": "loupe",
+    "source": "robinterview",
+    "url": "https://www.youtube.com/watch?v=7f4bt_mnAQk",
+    "image": "https://i.ytimg.com/vi/7f4bt_mnAQk/maxresdefault.jpg",
+    "file": "loupe-red-team.jpg",
+    "bytes": 193949
+  },
+  {
+    "id": "vora",
+    "source": "vora",
+    "url": "https://www.youtube.com/watch?v=3t5N8C1pU0c",
+    "image": "https://i.ytimg.com/vi/3t5N8C1pU0c/hqdefault.jpg",
+    "file": "vora.jpg",
+    "bytes": 18190
+  },
+  {
+    "id": "rea",
+    "source": "rea",
+    "url": "https://github.com/morluto/rea",
+    "image": "https://repository-images.githubusercontent.com/1209966933/1a3fef9a-be4b-41f4-8830-a94c0e8288cc",
+    "file": "rea.png",
+    "bytes": 876912
+  },
+  {
+    "id": "hardware",
+    "source": "ledger",
+    "url": "https://www.ledger.com/blog-response-hardware-implant-attack",
+    "image": "https://ledger-wp-website-s3-prd.ledger.com/uploads/2026/10/Ledger_Anounce.png",
+    "file": "hardware.png",
+    "bytes": 297440
+  },
+  {
+    "id": "always",
+    "source": "muse",
+    "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent",
+    "image": "https://about.fb.com/wp-content/uploads/2026/09/Introducing-Muse_-Personal-AI-Agent_SocialShare.jpg?w=1200",
+    "file": "always.jpg",
+    "bytes": 36277
+  },
+  {
+    "id": "index",
+    "source": "indexfield",
+    "url": "https://index.network/blog/can-agents-be-trusted",
+    "image": "https://index.network/link-preview.png?v=2",
+    "file": "index.png",
+    "bytes": 1492934
+  },
+  {
+    "id": "amazon",
+    "source": "amazon",
+    "url": "https://www.aboutamazon.com/news/company-news/amazon-perplexity-comet-statement",
+    "image": "https://assets.aboutamazon.com/dims4/default/3458e75/2147483647/strip/true/crop/2000x1000+0+63/resize/1200x600!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F47%2F6d%2F7fe296e642859c7ba2a629eda3ba%2Famazon-logo-hero-images-2024.jpg",
+    "file": "amazon.jpg",
+    "bytes": 12255
+  },
+  {
+    "id": "summit",
+    "source": "summitreport",
+    "url": "https://opensourceaisummit.org/report/open-source-ai-hit-the-gas.pdf",
+    "image": "https://opensourceaisummit.org/images/og-image.jpg",
+    "file": "summit.jpg",
+    "bytes": 278933
+  },
+  {
+    "id": "incident",
+    "source": "hf",
+    "url": "https://huggingface.co/blog/security-incident-july-2026",
+    "image": "https://huggingface.co/blog/assets/security-incident-july-2026/thumbnail.png",
+    "file": "incident.png",
+    "bytes": 10546
+  },
+  {
+    "id": "economics",
+    "source": "anthropicpolicy",
+    "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/577dda8172ff9540c2c58481a3ae1757f0a1f65f-2400x1260.jpg",
+    "file": "economics.jpg",
+    "bytes": 235023
+  },
+  {
+    "id": "payments",
+    "source": "spiralpayments",
+    "url": "https://github.com/spiralxyz/bitcoin-payments",
+    "image": "https://github.com/spiralxyz/bitcoin-payments/raw/main/images/header.jpg",
+    "file": "payments.jpg",
+    "bytes": 36890
+  },
+  {
+    "id": "money",
+    "source": "wavelength",
+    "url": "https://lightning.engineering/posts/2026-10-23-wavelength-mainnet-launch/",
+    "image": "https://lightning.engineering/static/logo-7c2eb577d69406b263274ee7740cef50.svg",
+    "file": "money.svg",
+    "bytes": 13213
+  }
+]

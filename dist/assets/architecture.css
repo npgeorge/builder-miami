@@ -1,0 +1,91 @@
+/* Quiet architectural framing: fine rules and unembellished Roman numerals. */
+:root {
+  --moulding: #8b807062;
+  --ornament: #b5a584;
+  --frame-wash: #171b2659;
+}
+:root[data-theme="day"] {
+  --moulding: #b5a78c70;
+  --ornament: #8c7e66;
+  --frame-wash: #fcfaf259;
+}
+:root[data-theme] header,
+:root[data-theme] .global-footer { border-color: var(--moulding); box-shadow: none; }
+:root[data-theme] .home-feature { border-color: var(--moulding); box-shadow: none; }
+:root[data-theme] .home-feature::before,
+:root[data-theme] .hero-copy::before { display: none; }
+:root[data-theme] .home-feature::after {
+  z-index: 4; inset: 6px;
+  border-color: var(--moulding);
+  box-shadow: none;
+}
+.hero-visual { overflow: hidden; }
+.hero-art { object-fit: cover; object-position: center; }
+:root[data-theme] .hero-copy { border-top-color: var(--moulding); box-shadow: none; }
+:root[data-theme] .hero-caption {
+  border-color: var(--moulding); border-radius: 0;
+  box-shadow: none; padding: 7px 16px;
+}
+.topic-map { position: relative; isolation: isolate; }
+.topic-map::before {
+  content: ''; position: absolute; z-index: -1; pointer-events: none;
+  inset: -4px -20px -6px;
+  border: 1px solid var(--moulding);
+  background: var(--frame-wash);
+}
+:root[data-theme] .map-head { border-bottom: 1px solid var(--moulding); padding-left: 6px; padding-right: 6px; }
+:root[data-theme] .map-caption { padding-left: 6px; padding-right: 6px; }
+:root[data-theme] .topic-row {
+  grid-template-columns: 48px 1fr 24px; gap: 17px;
+  border-bottom-color: var(--moulding); box-shadow: none;
+}
+:root[data-theme] .topic-row:hover { padding-left: 0; }
+:root[data-theme] .topic-row .number {
+  position: relative; width: 46px; height: 54px;
+  border: 0; border-radius: 0; background: none; box-shadow: none;
+  color: var(--ink); font: 400 25px/1 var(--serif);
+}
+.number::before,.number::after { display: none; }
+.number-glyph { position: relative; letter-spacing: -.5px; text-shadow: none; }
+.number.visited .number-glyph::after {
+  content: ''; position: absolute; left: 50%; bottom: -9px;
+  width: 3px; height: 3px; border-radius: 50%; background: currentColor;
+  transform: translateX(-50%); opacity: .6;
+}
+.frame-corners { position: absolute; z-index: 3; inset: 0; pointer-events: none; color: var(--ornament); }
+.frame-corners i { position: absolute; width: 22px; height: 22px; background: currentColor; opacity: .4; mask: url('greek-corner.svg') center/contain no-repeat; }
+.frame-corners i:nth-child(1) { left: 6px; top: 6px; }
+.frame-corners i:nth-child(2) { right: 6px; top: 6px; transform: rotate(90deg); }
+.frame-corners i:nth-child(3) { right: 6px; bottom: 6px; transform: rotate(180deg); }
+.frame-corners i:nth-child(4) { left: 6px; bottom: 6px; transform: rotate(270deg); }
+.topic-map>.frame-corners { inset: -4px -20px -6px; }
+.topic-map>.frame-corners i { width: 18px; height: 18px; }
+:root[data-theme] .question-card,
+:root[data-theme] .focus-mode .question-card {
+  border-color: var(--moulding); border-radius: 1px; box-shadow: none;
+}
+:root[data-theme] .case-tabs button { box-shadow: none; }
+:root[data-theme] .dialog { border-color: var(--moulding); }
+:root[data-theme] .dialog-head { border-bottom: 1px solid var(--moulding); }
+@media (min-width:1700px) {
+  :root[data-theme] .topic-row { grid-template-columns: 60px 1fr 24px; gap: 23px; }
+  :root[data-theme] .topic-row .number { width: 56px; height: 64px; font-size: 31px; }
+  .frame-corners i { width: 28px; height: 28px; }
+}
+@media (max-height:780px) and (min-width:1001px) {
+  :root[data-theme] .topic-row { padding-top: 14px; padding-bottom: 14px; }
+  :root[data-theme] .topic-row .number { width: 44px; height: 50px; font-size: 24px; }
+}
+@media (max-width:1000px) {
+  .topic-map::before,.topic-map>.frame-corners { inset: -10px -14px; }
+  .topic-map { margin-top: 10px; margin-bottom: 10px; }
+}
+@media (max-width:600px) {
+  :root[data-theme] .topic-row { grid-template-columns: 40px 1fr 20px; gap: 12px; }
+  :root[data-theme] .topic-row .number { width: 38px; height: 46px; font-size: 22px; }
+  .frame-corners i { width: 18px; height: 18px; }
+}
+@media print {
+  .frame-corners,.topic-map::before { display: none; }
+  :root[data-theme] .topic-row .number { color: black; }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" fill="none">
+<defs>
+<filter id="irregular" x="-8%" y="-8%" width="116%" height="116%"><feTurbulence type="fractalNoise" baseFrequency=".012 .025" numOctaves="2" seed="11" result="grain"/><feDisplacementMap in="SourceGraphic" in2="grain" scale="19" xChannelSelector="R" yChannelSelector="G"/></filter>
+<filter id="haze"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<g stroke="#9c9787" stroke-opacity=".18" stroke-width="13" filter="url(#haze)"><path d="M-70 50C150 76 158 223 344 292S557 355 635 500 818 562 835 727 1000 876 1100 1140"/><path d="M1630 15C1490 176 1474 252 1368 317S1320 502 1222 584 1140 700 1171 812"/></g>
+<g stroke="#918e7e" stroke-opacity=".27" filter="url(#irregular)" stroke-linecap="round">
+<path d="M-70 50C150 76 158 223 344 292S557 355 635 500 818 562 835 727 1000 876 1100 1140" stroke-width="1.2"/>
+<path d="M-30 77C140 91 169 232 332 302S550 362 620 507 808 581 820 721 1014 904 1080 1130" stroke-width=".6"/>
+<path d="M1630 15C1490 176 1474 252 1368 317S1320 502 1222 584 1140 700 1171 812 1092 942 1189 1100" stroke-width="1"/>
+<path d="M1368 317q-100 31-136 16t-112 20q-38 15-109 10M1440 227q56 8 90 64t80 53M1222 584q47 45 124 32t108 65" stroke-width=".65"/>
+<path d="M344 292q-49 78-10 131t-5 151q-46 67-6 129M635 500q-83 43-104 125t-100 76M835 727q55-17 84 18t118 39" stroke-width=".55"/>
+<path d="M-30 843q101-87 195-68t145-51q56-62 140-57M1600 943q-100-56-173-26t-140-14" stroke-width=".8"/>
+</g>
+</svg>

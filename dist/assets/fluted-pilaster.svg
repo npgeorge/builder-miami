@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 1100" preserveAspectRatio="none" fill="none">
+<defs><linearGradient id="stone" x1="0" x2="1"><stop stop-color="#888775" stop-opacity=".08"/><stop offset=".48" stop-color="#bbb6a7" stop-opacity=".18"/><stop offset="1" stop-color="#888775" stop-opacity=".04"/></linearGradient></defs>
+<path d="M25 100h110l-9 916H34Z" fill="url(#stone)"/>
+<g stroke="#858574" stroke-width="1.2">
+<path d="M9 40h142M12 49h136v14H12ZM21 68h118M25 76h110M25 84h110v16H25ZM31 105l5 907M129 105l-5 907"/>
+<path d="M40 72c0 12 9 18 18 20M120 72c0 12-9 18-18 20"/>
+<path d="M45 117q7-9 14 0l3 884q-7 9-14 0ZM73 117q7-9 14 0v884q-7 9-14 0ZM101 117q7-9 14 0l-3 884q-7 9-14 0Z" stroke-opacity=".7"/>
+<path d="M32 1018h96M28 1025h104v13H28ZM23 1043h114v12H23ZM13 1061h134v18H13ZM7 1085h146"/>
+</g>
+<g stroke="#c4beaf" stroke-width="2" stroke-opacity=".7"><path d="M42 122l4 872M70 122v872M98 122l-1 872"/></g>
+</svg>
