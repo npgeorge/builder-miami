@@ -1,6 +1,6 @@
 # Builder Miami · AI × Bitcoin
 
-A local, host-led discussion experience for October 28, 2026. Open `dist/index.html` in a browser, or serve `dist` with any static HTTP server. No installation, API keys, external fonts or live model are required.
+A local, host-led discussion experience for Thursday October 29, 2026. Open `dist/index.html` in a browser, or serve `dist` with any static HTTP server. No installation, API keys, external fonts or live model are required.
 
 For localhost, double-click `Start Roundtable.command`, then open http://127.0.0.1:8048/. Keep its Terminal window open while presenting. If the site is already running, just open the URL; no second server is needed. Press Control-C in the server's terminal to stop it.
 
