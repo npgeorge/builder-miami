@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d18">
+  <meta name="description" content="Building with AI. Advancing Bitcoin. A roundtable for AI and Bitcoin builders.">
+  <title>Builder Miami · AI &amp; Bitcoin Roundtables</title>
+  <link rel="canonical" href="https://buildermiami.ai/">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('builder-roundtable-theme-v1')==='day'?'day':'night';}catch{document.documentElement.dataset.theme='night';}</script>
+  <link rel="stylesheet" href="dist/assets/landing.css?v=9">
+</head>
+<body>
+  <div class="courtyard-surround" aria-hidden="true"><span class="palm palm-left"></span><span class="palm palm-right"></span><span class="technology-etching bitcoin-etching"></span><span class="technology-etching neural-etching"></span></div>
+  <a class="skip-link" href="#roundtables">Skip to roundtables</a>
+  <header class="site-header">
+    <a class="wordmark" href="./" aria-label="Builder Miami home"><span class="arch-mark" aria-hidden="true">✦</span><span>Builder Miami</span></a>
+    <div class="header-actions">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="about/">About</a>
+        <a href="#roundtables">Roundtables</a>
+      </nav>
+      <div class="theme-switch" role="group" aria-label="Visual theme">
+        <button type="button" data-theme="day" aria-pressed="false" aria-label="Marble Day light theme"><span aria-hidden="true">☼</span> Day</button>
+        <button type="button" data-theme="night" aria-pressed="true" aria-label="Miami Night dark theme"><span aria-hidden="true">☾</span> Night</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="introduction" aria-labelledby="page-title">
+      <div class="courtyard-study" aria-hidden="true"><span class="portico"></span><span class="palm palm-study"></span><span class="technology-etching study-neural"></span></div>
+      <p class="eyebrow">Miami · Builders &amp; the curious</p>
+      <h1 id="page-title">Building with AI.<br><em class="bitcoin-heading">Advancing Bitcoin.</em></h1>
+      <p class="introduction-copy">A roundtable for AI and Bitcoin builders.</p>
+    </section>
+    <section class="roundtables" id="roundtables" aria-labelledby="roundtables-title">
+      <div class="section-heading"><h2 id="roundtables-title">Roundtable Discussions</h2><span class="eyebrow">A growing collection</span></div>
+      <!-- Add future roundtables above this card. Keep each event's dated URL and source collection available. -->
+      <article class="event-card" aria-labelledby="event-title">
+        <span class="card-corners" aria-hidden="true"><i></i><i></i></span>
+        <a class="event-art" href="events/2026-10-29/" aria-label="Explore the October 29 AI and Bitcoin roundtable">
+          <img id="event-artwork" src="dist/assets/satoshi-marble-wide.png" alt="An imagined Satoshi sculpted in marble, framed by classical columns and neon light." fetchpriority="high" width="1536" height="1024">
+          <span class="art-caption" aria-hidden="true">The new agora</span>
+        </a>
+        <div class="event-content">
+          <div class="event-topline"><span class="eyebrow">Roundtable discussion</span><span class="event-status" data-start="2026-10-29T18:30:00-04:00" data-end="2026-10-29T20:30:00-04:00">Upcoming</span></div>
+          <div class="event-date"><time datetime="2026-10-29">Thursday, October 29, 2026</time><span>6:30–8:30 p.m. · Miami time (EDT)</span></div>
+          <h2 id="event-title">AI <span class="cross">×</span> Bitcoin</h2>
+          <p class="event-question">Who owns the future?</p>
+          <p class="event-description">We’ll explore what recent AI developments mean for Bitcoin builders, using real products and events as our starting point. Together, we’ll examine the promise and the tradeoffs, and consider how these tools could bring Bitcoin into more people’s lives.</p>
+          <ol class="question-preview" aria-label="Discussion questions">
+            <li>What’s worth building now?</li>
+            <li>What does it mean to own your AI?</li>
+            <li>Who does your agent work for?</li>
+            <li>Who gets to set the limits?</li>
+            <li>Where does Bitcoin earn its place?</li>
+          </ol>
+          <div class="event-actions">
+            <a class="primary-link" href="events/2026-10-29/">Explore the discussion <span aria-hidden="true">↗</span></a>
+            <a class="source-link" href="events/2026-10-29/#links">Browse sources <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </article>
+      <p class="archive-note">Each roundtable lives on here, along with its questions, ideas, and sources.</p>
+    </section>
+  </main>
+  <footer><span>Think freely. Build deliberately.</span><span>Builder Miami</span></footer>
+  <script>
+    const themeKey='builder-roundtable-theme-v1';
+    const artworks={
+      day:{src:'dist/assets/satoshi-marble-day.png',alt:'An imagined Satoshi sculpted in marble in a sunlit courtyard with white columns, blue water, and coral trees.'},
+      night:{src:'dist/assets/satoshi-marble-wide.png',alt:'An imagined Satoshi sculpted in marble, framed by classical columns and neon light.'}
+    };
+    function setTheme(value,save=false){
+      const theme=value==='day'?'day':'night';
+      document.documentElement.dataset.theme=theme;
+      document.querySelector('meta[name="theme-color"]').content=theme==='day'?'#f6f3ec':'#0b0d18';
+      document.querySelectorAll('button[data-theme]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.theme===theme)));
+      const artwork=document.getElementById('event-artwork');
+      artwork.src=artworks[theme].src;artwork.alt=artworks[theme].alt;
+      if(save){try{localStorage.setItem(themeKey,theme);}catch{}}
+    }
+    document.querySelectorAll('button[data-theme]').forEach(button=>button.addEventListener('click',()=>setTheme(button.dataset.theme,true)));
+    window.addEventListener('storage',event=>{if(event.key===themeKey)setTheme(event.newValue);});
+    setTheme(document.documentElement.dataset.theme);
+    function updateEventStatus(){
+      const now=Date.now();
+      document.querySelectorAll('[data-start][data-end]').forEach(status=>{
+        const start=Date.parse(status.dataset.start),end=Date.parse(status.dataset.end);
+        status.textContent=now>=end?'Past roundtable':now>=start?'Happening now':'Upcoming';
+        status.dataset.status=now>=end?'past':now>=start?'live':'upcoming';
+      });
+    }
+    updateEventStatus();setInterval(updateEventStatus,60000);
+  </script>
+</body>
+</html>

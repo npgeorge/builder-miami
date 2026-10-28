@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" fill="none" stroke="#000" stroke-width=".9" stroke-linecap="round" stroke-linejoin="round">
+  <g opacity=".6">
+    <path d="M37 344V165a163 163 0 0 1 326 0v179M49 344V165a151 151 0 0 1 302 0v179"/>
+    <path d="M85 337V166a115 115 0 0 1 230 0v171M94 337V167a106 106 0 0 1 212 0v170"/>
+    <path d="M186 3l3 46h22l3-46M105 34l20 40M294 34l-19 40M44 118l44 11M356 118l-44 11"/>
+  </g>
+  <g stroke-width="1.15">
+    <path d="M48 160h41v8H48zM52 172h33v7H52zM57 181h23l-2 143H59zM51 328h35v7H51zM46 339h45v8H46z"/>
+    <path d="M311 160h41v8h-41zM315 172h33v7h-33zM320 181h23l-2 143h-19zM314 328h35v7h-35zM309 339h45v8h-45z"/>
+    <path d="M62 185v135M68 185v135M74 185v135M325 185v135M331 185v135M337 185v135" stroke-width=".65"/>
+  </g>
+  <g opacity=".55">
+    <circle cx="200" cy="158" r="43"/>
+    <circle cx="200" cy="158" r="47" stroke-dasharray="1 8"/>
+    <path d="M105 260h190M109 268h182M112 281h176M119 296h162M132 315h136M151 337h98M200 260v77M184 260l-19 77M216 260l19 77M169 260l-37 77M231 260l37 77" stroke-width=".55"/>
+  </g>
+  <g stroke-width="1.55" opacity=".9" transform="rotate(12 200 158)">
+    <path d="M183 138h17c19 0 21 18 4 20 21 1 20 21 1 21h-22M190 138v41M190 158h14M196 131v7M204 131v7M196 179v7M204 179v7"/>
+  </g>
+  <path d="M29 351h342M21 359h358M10 368h380"/>
+</svg>

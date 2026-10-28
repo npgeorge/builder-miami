@@ -161,7 +161,10 @@ a.source-preview:hover .preview-caption { text-decoration: underline; text-under
 /* Event identity stays centered independently of the side controls. */
 .site-header { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 24px; height: 96px; }
 .site-header .brand { justify-self: start; }
-.event-identity { display: flex; flex-direction: column; align-items: center; gap: 5px; text-align: center; white-space: nowrap; }
+.event-identity { display: flex; flex-direction: column; align-items: center; gap: 5px; text-align: center; white-space: nowrap; text-decoration: none; }
+.event-identity:hover .event-name { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.archive-home-link { color: var(--muted); font-size: 12px; text-decoration: none; }
+.archive-home-link:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
 .event-name { color: var(--ink); font: 500 clamp(29px, 2.15vw, 40px)/1.05 var(--serif); letter-spacing: .6px; }
 .event-date { color: var(--muted); font: 500 9px/1.4 var(--sans); letter-spacing: 2.5px; text-transform: uppercase; }
 .site-header .header-actions { justify-self: end; gap: 14px; }
