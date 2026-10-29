@@ -191,6 +191,24 @@ a.source-preview:hover .preview-caption { text-decoration: underline; text-under
 }
 :root[data-theme="day"] .home::before { opacity: .4; }
 :root[data-theme="day"] .home::after { opacity: .38; filter: none; }
+
+/* The introduction and the question map share one grid row and one outer height. */
+.home>.home-feature,.home>.topic-map { min-width: 0; align-self: stretch; }
+.home .hero-copy { flex-shrink: 0; }
+.home>.topic-map {
+  display: grid; grid-template-rows: repeat(6, minmax(min-content, 1fr)) auto;
+  margin: 0; padding: 16px 20px;
+}
+.home>.topic-map::before,.home>.topic-map>.frame-corners { inset: 0; }
+.home>.topic-map::after { inset: 6px; }
+.home .map-caption { align-self: end; margin-top: 16px; }
+@media (min-width:1001px) {
+  .home { grid-template-columns: minmax(0, 1.02fr) minmax(0, 1fr); min-height: calc(100svh - 148px); }
+  .home>.home-feature { min-height: 0; }
+}
+@media (max-width:600px) {
+  .home>.topic-map { padding: 12px 16px; }
+}
 @media (max-width:1150px) {
   .site-header { gap: 18px; }
   .site-header .header-actions { gap: 9px; }
