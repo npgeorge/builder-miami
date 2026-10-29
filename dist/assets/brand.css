@@ -1,4 +1,28 @@
 /* Coastal Gate: a shared mark for the roundtable and its archive. */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('fonts/cinzel-medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('fonts/cinzel-semibold.ttf') format('truetype');
+}
+.site-header .builder-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font: 500 20px/1.2 'Cinzel', 'Palatino Linotype', Georgia, serif;
+  letter-spacing: .025em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.site-header button.builder-brand { padding: 0; }
 .builder-mark {
   display: block;
   flex: 0 0 auto;
@@ -7,6 +31,42 @@
   filter: brightness(1.9) saturate(.88);
 }
 :root[data-theme="day"] .builder-mark { filter: none; }
+
+/* Icon-only theme controls share the same compact shape on every page. */
+.site-header .theme-switch {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  box-shadow: none;
+}
+.site-header .theme-switch button {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  min-height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  color: var(--muted);
+  background: transparent;
+}
+.site-header .theme-switch button svg { display: block; width: 15px; height: 15px; pointer-events: none; }
+.site-header .theme-switch button:hover { color: var(--ink); }
+.site-header .theme-switch button[aria-pressed="true"] { color: var(--ink); background: var(--soft, var(--accent-soft)); }
+:root[data-theme="day"] .site-header .theme-switch { background: transparent; border-color: var(--line); }
+:root[data-theme="day"] .site-header .theme-switch button[aria-pressed="true"] { color: var(--ink); background: #f6e4d5; }
+
 @media (max-width:760px) {
+  .site-header .builder-brand { font-size: 16px; gap: 10px; }
   .builder-mark { width: 40px; }
+}
+@media (max-width:380px) {
+  .site-header .builder-brand { font-size: 14px; gap: 8px; }
+  .builder-mark { width: 36px; }
 }
