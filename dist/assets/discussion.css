@@ -73,6 +73,7 @@
 .showcase-logo--vora { background: #e5d1d5; }
 .showcase-logo--spiral { background: #d9dfeb; }
 .showcase-logo--hoseki { background: #ede4c6; }
+.showcase-logo--bumbei { background: #f0e2bc; }
 .showcase-logo img { display: block; width: 42px; height: 42px; object-fit: contain; filter: saturate(.65); opacity: .85; }
 .showcase-logo--hoseki img { width: 38px; height: 38px; }
 @media (max-width:600px) {
