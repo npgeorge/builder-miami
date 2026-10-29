@@ -1,3 +1,4 @@
+@font-face { font-family: 'Cinzel'; font-style: normal; font-weight: 500; font-display: swap; src: url('fonts/cinzel-medium.ttf') format('truetype'); }
 :root {
   color-scheme: dark;
   --paper: #0b0d18;
@@ -11,6 +12,8 @@
   --action-ink: #152c2d;
   --rose: #e5b8cd;
   --bitcoin-heading: #de9060;
+  --inscription-highlight: #c9d4bd22;
+  --inscription-recess: #000000a0;
   --shadow: #00000045;
   --stone-detail: #b6c9be;
   --palm-detail: #a1e8de;
@@ -32,6 +35,8 @@
   --action-ink: #48513d;
   --rose: #797a63;
   --bitcoin-heading: #ac512a;
+  --inscription-highlight: #fffef9;
+  --inscription-recess: #8b897c55;
   --shadow: #4c483719;
   --stone-detail: #8b8d78;
   --palm-detail: #69775b;
@@ -85,6 +90,11 @@ h1 { font: 400 clamp(46px, 5vw, 70px)/1.04 var(--serif); letter-spacing: -1.8px;
 h1 em { color: var(--rose); font-weight: 400; }
 h1 .bitcoin-heading { color: var(--bitcoin-heading); }
 .introduction-copy { margin: 23px 0 0; color: var(--muted); font-size: 17px; line-height: 1.7; }
+.home-introduction { padding: 68px 0 58px; text-align: center; }
+.home-introduction .courtyard-study { opacity: .3; }
+.home-title { position: relative; display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: .18em .55em; margin: 0 auto; font-family: 'Cinzel', 'Palatino Linotype', Georgia, serif; font-size: clamp(28px, 3.4vw, 46px); font-style: normal; font-weight: 500; line-height: 1.35; letter-spacing: .035em; text-transform: uppercase; text-shadow: 0 -.65px .3px var(--inscription-recess), 0 .9px .3px var(--inscription-highlight); }
+.home-title>span { white-space: nowrap; }
+.home-introduction .introduction-copy { position: relative; margin: 22px 0 0; font-family: 'Cinzel', 'Palatino Linotype', Georgia, serif; font-size: clamp(14px, 1.4vw, 20px); font-weight: 500; line-height: 1.7; letter-spacing: .055em; text-transform: uppercase; text-wrap: balance; }
 .section-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding-bottom: 16px; }
 .section-heading h2 { margin: 0; font: 400 22px/1.2 var(--serif); }
 .section-heading>.eyebrow { color: var(--muted); font-size: 9px; }
@@ -107,9 +117,11 @@ h1 .bitcoin-heading { color: var(--bitcoin-heading); }
 .event-status[data-status="past"] { color: var(--muted); }
 .event-date { display: flex; flex-direction: column; gap: 2px; margin-top: 28px; font-size: 13px; }
 .event-date span { color: var(--muted); font-size: 12px; }
-.event-content h2 { font: 400 clamp(38px, 4vw, 53px)/1.08 var(--serif); letter-spacing: -.6px; margin: 23px 0 0; }
-.cross { color: var(--rose); }
-.event-question { font: italic 23px/1.4 var(--serif); color: var(--rose); margin: 8px 0 0; }
+.event-content h2 { font: 400 clamp(32px, 3.1vw, 43px)/1.12 var(--serif); letter-spacing: -.5px; margin: 23px 0 0; text-wrap: balance; }
+.event-title-link { color: inherit; text-decoration: none; }
+.event-title-link:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 6px; }
+.event-hosts { margin: 14px 0 0; color: var(--muted); font-size: 12px; line-height: 1.6; }
+.event-hosts strong { color: var(--ink); font-weight: 600; white-space: nowrap; }
 .event-description { color: var(--muted); font-size: 14px; line-height: 1.75; margin: 18px 0 20px; }
 .question-preview { margin: 0 0 26px; padding: 0; list-style: none; counter-reset: question; }
 .question-preview li { counter-increment: question; display: grid; grid-template-columns: 25px minmax(0, 1fr); align-items: baseline; gap: 10px; padding: 8px 0; border-top: 1px solid var(--line); font: 400 18px/1.35 var(--serif); }
@@ -122,17 +134,22 @@ h1 .bitcoin-heading { color: var(--bitcoin-heading); }
 .source-link:hover { text-decoration: underline; }
 .source-link span { margin-left: 8px; color: var(--accent); }
 .archive-note { margin: 18px 0 0; font-size: 12px; color: var(--muted); }
-.about-introduction { padding-bottom: 38px; }
-.about-introduction .introduction-copy { max-width: 640px; font: 400 23px/1.55 var(--serif); color: var(--ink); }
-.about-layout { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 64px; align-items: start; }
-.about-story { color: var(--muted); font-size: 16px; line-height: 1.8; }
+.about-masthead { padding: 68px 0 64px; }
+.about-masthead .courtyard-study { opacity: .35; }
+.about-introduction { grid-area: intro; text-align: left; }
+.about-introduction h1 { margin: 0; font-size: 32px; line-height: 1.2; letter-spacing: -.4px; }
+.about-neon-lettering { position: relative; display: block; width: 680px; max-width: 100%; margin: 0 auto; }
+.about-neon-lettering img { display: block; width: 100%; height: auto; }
+.about-introduction .introduction-copy { margin: 18px 0 0; font: 400 23px/1.55 var(--serif); color: var(--ink); }
+.about-layout { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); grid-template-areas: "intro credit" "story credit"; gap: 28px 64px; align-items: start; }
+.about-story { grid-area: story; color: var(--muted); font-size: 16px; line-height: 1.8; }
 .about-story>p:first-child { margin-top: 0; }
 .about-story h2 { margin: 34px 0 16px; color: var(--ink); font: 400 26px/1.3 var(--serif); }
 .about-themes { margin: 0 0 28px; padding: 0; list-style: none; }
 .about-themes li { display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 18px; padding: 15px 0; border-top: 1px solid var(--line); font-size: 14px; line-height: 1.7; }
 .about-themes strong { color: var(--ink); font: 400 21px/1.3 var(--serif); }
 .about-story .source-link { display: inline-block; margin-top: 8px; font-size: 14px; }
-.grove-credit { position: relative; padding: 34px; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 24px 55px -30px var(--shadow); }
+.grove-credit { grid-area: credit; align-self: center; position: relative; padding: 34px; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 24px 55px -30px var(--shadow); }
 .grove-credit::after { content: ''; position: absolute; inset: 5px; border: 1px solid var(--line); opacity: .3; pointer-events: none; }
 .grove-credit>.eyebrow { margin: 0; color: var(--accent); }
 .grove-credit h2 { font: 400 38px/1.1 var(--serif); margin: 17px 0 21px; letter-spacing: -.4px; }
@@ -145,19 +162,26 @@ h1 .bitcoin-heading { color: var(--bitcoin-heading); }
 footer { position: relative; max-width: 1088px; margin: 54px auto 0; padding: 22px 0 30px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font-size: 11px; }
 footer::before { content: '✦'; position: absolute; left: 50%; top: -13px; transform: translateX(-50%); padding: 0 15px; color: var(--stone-detail); background: var(--paper); font: 17px/24px var(--serif); }
 footer>span:first-child { font: italic 15px/1.4 var(--serif); color: var(--rose); }
+.venue-credit { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: flex-end; margin-left: auto; text-align: right; gap: 4px 8px; font-size: 11px; line-height: 1.6; }
+.venue-credit a { color: inherit; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.venue-credit a:hover { color: var(--ink); text-decoration-color: currentColor; }
+.venue-credit address { font-style: normal; }
 @media (min-width:1600px) { main { max-width: 1264px; } .introduction { padding-top: 80px; } .event-art { min-height: 445px; } .event-content { padding: 38px 45px; } footer { max-width: 1168px; } }
 @media (max-width:1184px) { footer { margin-left: 48px; margin-right: 48px; } .event-content { padding-left: 28px; padding-right: 28px; } }
 @media (max-width:1699px) { .bitcoin-etching,.neural-etching { display: none; } }
 @media (max-width:1350px) { .courtyard-surround::before { background-position: left -39px top, right -39px top; opacity: .24; } :root[data-theme="day"] .courtyard-surround::before { opacity: .28; } .palm-left { left: -240px; opacity: .15; } .palm-right { right: -240px; opacity: .13; } }
 @media (max-width:1050px) { .courtyard-study { width: 220px; height: 240px; right: -10px; top: 37px; } .palm-study { width: 140px; height: 180px; right: -8px; } .portico { opacity: .3; } }
 @media (max-width:900px) { .courtyard-study { width: 180px; height: 210px; top: 37px; opacity: .65; } .palm-study { width: 110px; height: 160px; } }
-@media (max-width:1050px) { .about-layout { gap: 34px; } .grove-credit { padding: 27px; } .about-introduction .introduction-copy { max-width: 60%; } }
+@media (max-width:1050px) { .about-layout { column-gap: 34px; } .grove-credit { padding: 27px; } }
 @media (max-width:760px) {
   .site-header { padding: 22px 24px 16px; display: grid; grid-template-columns: 1fr auto; gap: 18px; } main { padding: 0 24px; }
   .wordmark { font-size: 22px; gap: 10px; } .header-actions { display: contents; }
   .site-nav { grid-column: 1 / -1; grid-row: 2; justify-content: flex-end; gap: 24px; }
   .theme-switch { grid-column: 2; grid-row: 1; }
   .introduction { padding: 48px 0 38px; } h1 { font-size: clamp(38px, 7vw, 55px); letter-spacing: -1.2px; }
+  .home-introduction { padding: 42px 0 42px; }
+  .home-title { font-size: clamp(22px, 6vw, 30px); letter-spacing: .025em; }
+  .home-introduction .introduction-copy { margin-top: 16px; }
   .courtyard-study { display: none; }
   .courtyard-surround::before { display: none; }
   .palm-left { width: 260px; height: 330px; left: auto; right: -175px; top: 77px; transform: scaleX(-1) rotate(25deg); opacity: .14; }
@@ -168,11 +192,11 @@ footer>span:first-child { font: italic 15px/1.4 var(--serif); color: var(--rose)
   .introduction-copy { font-size: 15px; }
   .section-heading { flex-direction: column; align-items: flex-start; gap: 6px; }
   .event-card { grid-template-columns: 1fr; } .event-art { min-height: 0; aspect-ratio: 1.45; border-right: 0; border-bottom: 1px solid var(--line); }
-  .event-art img { object-position: 50% 46%; } .event-content { padding: 27px; } .event-content h2 { font-size: 44px; }
+  .event-art img { object-position: 50% 46%; } .event-content { padding: 27px; } .event-content h2 { font-size: clamp(30px, 6vw, 40px); }
   .event-date { margin-top: 24px; } .event-description { max-width: none; }
   .about-introduction .introduction-copy { max-width: none; font-size: 21px; }
-  .about-layout { grid-template-columns: 1fr; gap: 34px; }
-  .grove-credit { grid-row: 1; }
+  .about-masthead { padding: 60px 0 50px; }
+  .about-layout { grid-template-columns: 1fr; grid-template-areas: "intro" "credit" "story"; gap: 34px; }
   .about-themes li { grid-template-columns: 78px minmax(0, 1fr); gap: 14px; }
   footer { margin: 40px 24px 0; flex-wrap: wrap; gap: 10px; }
 }

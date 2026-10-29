@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1005" height="185" viewBox="0 95 1005 185" fill="none">
+  <title>Builder Miami neon lettering</title>
+  <desc>Builder Miami handwritten in flowing orange neon tubes on a transparent background.</desc>
+  <defs>
+    <linearGradient id="tube" x1="500" y1="125" x2="500" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe0b2"/>
+      <stop offset=".4" stop-color="#ffb16a"/>
+      <stop offset=".8" stop-color="#ffd6a0"/>
+      <stop offset="1" stop-color="#ffbc77"/>
+    </linearGradient>
+    <filter id="tube-shadow" x="-5%" y="-25%" width="110%" height="150%"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="aura" x="-5%" y="-60%" width="110%" height="220%"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="bloom" x="-5%" y="-30%" width="110%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="hot-glow" x="-5%" y="-15%" width="110%" height="130%"><feGaussianBlur stdDeviation="1.3"/></filter>
+    <!-- Both words use custom centerline paths with matching slope and tube weight. -->
+    <g id="builder" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M54 239 88 132M39 165C50 145 77 125 111 124C151 119 172 132 161 151C150 166 125 176 86 179C112 174 158 172 161 191C162 214 136 234 103 238C85 241 71 239 69 230"/>
+      <path d="M169 183 157 219C150 236 164 242 183 225L208 181L192 219C184 238 201 241 216 226"/>
+      <path d="M216 226 246 177 232 218C225 236 240 239 255 225M251 153 254 148"/>
+      <path d="M255 225C275 199 297 164 301 143C307 123 298 117 285 136C272 162 262 193 260 218C258 238 273 241 291 226"/>
+      <path d="M346 184C333 165 306 169 295 197C283 224 297 240 315 229C336 210 350 164 363 133L335 217C329 235 345 239 359 225"/>
+      <path d="M359 225C382 216 400 197 390 183C379 166 358 188 355 209C352 233 374 246 398 225"/>
+      <path d="M398 225C412 209 419 190 426 178L408 231M421 194C432 183 446 179 452 185C458 191 452 201 447 203C464 207 483 196 496 185"/>
+    </g>
+    <g id="miami" transform="translate(340 0)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M196 239C207 202 221 157 231 136C238 123 252 119 259 127C271 138 251 183 242 207C264 174 290 143 309 132C329 120 338 130 328 150L297 234C306 235 314 232 321 226"/>
+      <path d="M321 226C335 211 346 187 354 170L339 218C331 235 345 241 362 229"/>
+      <path d="M359 150 362 145"/>
+      <path d="M420 184C408 164 381 169 369 197C357 222 369 239 387 231C401 220 414 192 420 178L403 220C399 234 410 238 425 226"/>
+      <path d="M425 226C438 210 445 190 451 177L435 229C452 199 469 176 484 176C496 178 484 202 477 222C497 192 515 176 530 178C543 182 528 211 526 223C525 237 539 235 549 224"/>
+      <path d="M549 224 574 175 558 222C553 237 570 239 591 224L624 199"/>
+      <path d="M579 151 582 146"/>
+    </g>
+    <g id="lettering"><use href="#builder"/><use href="#miami"/></g>
+  </defs>
+  <use href="#lettering" transform="translate(1 3)" stroke="#76341b" stroke-width="8" opacity=".18" filter="url(#tube-shadow)"/>
+  <use href="#lettering" stroke="#ff6411" stroke-width="12" opacity=".35" filter="url(#aura)"/>
+  <use href="#lettering" stroke="#ff711c" stroke-width="8" opacity=".58" filter="url(#bloom)"/>
+  <use href="#lettering" stroke="#ad481d" stroke-width="7.5"/>
+  <use href="#lettering" stroke="#ff762d" stroke-width="6"/>
+  <use href="#lettering" stroke="#ffb578" stroke-width="4.5" filter="url(#hot-glow)"/>
+  <use href="#lettering" stroke="url(#tube)" stroke-width="3.1"/>
+  <use href="#lettering" stroke="#fff2db" stroke-width="1.05" opacity=".93"/>
+</svg>

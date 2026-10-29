@@ -101,8 +101,8 @@ header { border-color: var(--line); background: #0b0d18cc; }
 .prompt-tabs button.active { background: var(--ink); color: #161b28; border-color: var(--ink); }
 .prompt-tabs button.active:hover { color: #161b28; background: #fff; }
 .branch-bar { border-color: var(--line); }
-.branches button,.notebook-link { font-size: 13px; color: #c9ccda; }
-.branches button:hover,.notebook-link:hover { color: var(--accent); }
+.branches button { font-size: 13px; color: #c9ccda; }
+.branches button:hover { color: var(--accent); }
 .focus-mode .question-card h2 { font: 400 clamp(46px, 5.7vw, 100px)/1.08 var(--serif); letter-spacing: -1px; }
 .focus-mode .question-card { background: radial-gradient(ellipse at 100% 0, #ffa0c511, transparent 65%), linear-gradient(130deg, #111e29, #15182b 65%, #241b2e); }
 .room h1 { font-family: var(--serif); font-weight: 400; letter-spacing: -2px; }
@@ -128,7 +128,6 @@ header { border-color: var(--line); background: #0b0d18cc; }
 .callout { background: #20263a; border-color: var(--rose); }
 select,input,textarea,.dialog select,.dialog textarea { background: #0e1220; border-color: #595e76; color: var(--ink); border-radius: 2px; }
 textarea::placeholder { color: #898fa8; }
-.host-note { background: #202638; }
 .new-session { color: var(--rose); border-color: #ffa0c55a; }
 .toast { color: #102028; background: var(--accent); border-radius: 2px; box-shadow: 0 0 35px #0008; }
 @media (min-width:1700px) {

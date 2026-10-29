@@ -158,11 +158,19 @@ a.source-preview:hover .preview-caption { text-decoration: underline; text-under
 @media (min-width:1700px) { .summit-takeaways li { font-size: 20px; padding-left: 38px; } .summit-takeaways li::before { font-size: 13px; } }
 @media (max-height:780px) and (min-width:1001px) { .summit-takeaways { margin-top: 15px; } .summit-takeaways li { padding-top: 7px; padding-bottom: 7px; font-size: 15px; } .summit-takeaways li::before { top: 9px; } }
 
+/* The talk title, host credit and summary read as one gallery caption. */
+.home .talk-title { font-size: clamp(34px, 3.05vw, 56px); line-height: 1.08; letter-spacing: -.8px; max-width: 23ch; margin: 0 0 16px; text-wrap: balance; }
+.hero-copy .event-hosts { font-size: clamp(12px, .95vw, 16px); line-height: 1.6; }
+.hero-copy .intro { font-size: clamp(17px, 1.15vw, 21px); line-height: 1.55; font-weight: 400; max-width: 58ch; margin: 18px 0 24px; }
+
 /* Event identity stays centered independently of the side controls. */
 .site-header { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 24px; height: 96px; }
 .site-header .brand { justify-self: start; }
 .event-identity { display: flex; flex-direction: column; align-items: center; gap: 5px; text-align: center; white-space: nowrap; text-decoration: none; }
-.event-identity:hover .event-name { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.event-home { display: flex; flex-direction: column; align-items: center; gap: 5px; text-decoration: none; }
+.event-home:hover .event-name { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.event-hosts { color: var(--muted); font: 400 12px/1.5 var(--sans); letter-spacing: .1px; white-space: normal; }
+.event-hosts strong { color: var(--ink); font-weight: 600; white-space: nowrap; }
 .archive-home-link { color: var(--muted); font-size: 12px; text-decoration: none; }
 .archive-home-link:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
 .event-name { color: var(--ink); font: 500 clamp(29px, 2.15vw, 40px)/1.05 var(--serif); letter-spacing: .6px; }

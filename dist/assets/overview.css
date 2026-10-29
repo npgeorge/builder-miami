@@ -1,0 +1,88 @@
+/* A view of the whole conversation, with optional focus on any one topic. */
+.topic-overview { gap: 28px; padding-top: 30px; padding-bottom: 40px; }
+.topic-overview .topic-heading { padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+.topic-overview .topic-heading h1 { font-size: clamp(30px, 2.7vw, 48px); }
+.topic-overview-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.overview-card {
+  display: flex; flex-direction: column; min-width: 0;
+  padding: clamp(22px, 2vw, 36px); border: 1px solid var(--gallery-edge);
+  background: var(--gallery-surface); box-shadow: 0 12px 28px -24px var(--gallery-shadow);
+}
+.overview-numeral { color: var(--accent); font: 400 17px/1 var(--serif); margin-bottom: 18px; }
+.overview-card-top { position: relative; display: flex; align-items: flex-start; justify-content: center; margin-bottom: 22px; }
+.overview-card-top .overview-numeral { position: absolute; top: 4px; left: 0; margin: 0; }
+.overview-card-top .source-preview { width: min(64%, 190px); }
+.overview-card-top .preview-image { aspect-ratio: 16 / 9; }
+.overview-card-top .preview-caption { font-size: 10px; line-height: 1.4; }
+.overview-card h2 { color: var(--ink); font: 400 clamp(25px, 2.1vw, 38px)/1.15 var(--serif); letter-spacing: -.35px; text-wrap: balance; }
+.overview-summary { color: var(--muted); font: 400 clamp(16px, 1.2vw, 21px)/1.55 var(--sans); margin: 18px 0 22px; }
+.overview-question { padding-top: 21px; border-top: 1px solid var(--line); color: var(--ink); font: 400 clamp(22px, 1.75vw, 32px)/1.28 var(--serif); margin-bottom: 24px; text-wrap: pretty; }
+.overview-card-bottom { display: flex; flex-direction: column; align-self: stretch; }
+.overview-card .source-list { display: grid; grid-template-rows: repeat(3, minmax(min-content, 1fr)); flex: 1; margin-top: 0; }
+.overview-card .source-link { grid-template-columns: minmax(0, 1fr) auto 16px; gap: 8px; padding: 11px 0; font-size: clamp(14px, 1.04vw, 18px); }
+.overview-card .source-title { min-width: 0; line-height: 1.4; white-space: normal; overflow-wrap: anywhere; }
+.overview-card .source-format { max-width: 100px; font-size: 10px; letter-spacing: .3px; }
+.overview-card .source-arrow { align-self: center; }
+.overview-focus,.overview-back { display: flex; align-items: center; justify-content: space-between; gap: 16px; border: 1px solid var(--gallery-edge); background: var(--gallery-active); color: var(--ink); font: 400 14px/1.4 var(--sans); padding: 14px 16px; }
+.overview-focus { flex-shrink: 0; margin-top: 22px; width: 100%; text-align: left; }
+.overview-focus>span:last-child { font: 22px/1 var(--serif); color: var(--accent); }
+.overview-focus:hover,.overview-back:hover { color: var(--accent); border-color: var(--accent); }
+.overview-back { flex-shrink: 0; }
+@supports (grid-template-rows: subgrid) {
+  .overview-card { display: grid; grid-template-rows: subgrid; grid-row: span 5; row-gap: 0; }
+}
+.topic-focus .topic-heading { align-items: center; }
+.topic-focus .topic-heading h1 { font-size: clamp(27px, 2.4vw, 42px); }
+:root[data-theme] .topic-focus .discussion .topic-focus-questions { position: static; min-height: 0; padding: 32px clamp(25px, 3vw, 50px); }
+.topic-focus-questions .focus-prompt + .focus-prompt { margin-top: 28px; padding-top: 26px; border-top: 1px solid var(--line); }
+.topic-focus-questions .focus-prompt .eyebrow { color: var(--accent); font-size: 11px; }
+.topic-focus-questions .focus-prompt h2 { font: 400 clamp(25px, 2.1vw, 36px)/1.2 var(--serif); letter-spacing: -.3px; margin: 14px 0 12px; text-wrap: pretty; }
+.topic-focus-questions .focus-prompt-opening h2 { font-size: clamp(32px, 2.8vw, 49px); }
+.focus-nudge { color: var(--muted); font: 400 clamp(16px, 1.2vw, 21px)/1.5 var(--sans); }
+#topic-title:focus { outline: none; }
+@media (min-width:1700px) {
+  .topic-overview { gap: 34px; padding-top: 38px; }
+  .topic-overview-grid { gap: 28px; }
+  .overview-numeral { font-size: 21px; }
+  .overview-card-top .source-preview { width: min(64%, 220px); }
+  .overview-card-top .preview-caption { font-size: 11px; }
+  .overview-focus,.overview-back { font-size: 17px; padding: 17px 20px; }
+  .overview-card .source-format { font-size: 11px; }
+}
+@media (max-width:1050px) {
+  .topic-overview-grid { gap: 16px; }
+  .overview-card { padding: 20px; }
+  .overview-card h2 { font-size: 26px; }
+  .overview-summary { font-size: 16px; }
+  .overview-question { font-size: 23px; }
+}
+@media (max-height:800px) and (min-width:801px) {
+  .topic-overview { gap: 20px; padding-top: 22px; }
+  .topic-overview .topic-heading { padding-bottom: 18px; }
+  .overview-card { padding: 22px; }
+  .overview-numeral { margin-bottom: 12px; }
+  .overview-card-top { margin-bottom: 18px; }
+  .overview-summary { margin-top: 14px; margin-bottom: 18px; line-height: 1.45; }
+  .overview-question { padding-top: 17px; margin-bottom: 20px; }
+  .overview-focus { margin-top: 16px; padding-top: 11px; padding-bottom: 11px; }
+}
+@media (max-width:800px) {
+  .topic-overview-grid { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  .overview-card { padding: 26px; }
+  .overview-card h2 { font-size: 30px; text-wrap: initial; }
+  .overview-summary { font-size: 18px; }
+  .overview-question { font-size: 27px; }
+  .overview-card .source-link { font-size: 16px; }
+  .topic-focus .topic-heading { align-items: flex-start; }
+}
+@media (max-width:400px) {
+  .overview-card { padding: 22px; }
+  .overview-card h2 { font-size: 27px; }
+  .overview-summary { font-size: 17px; }
+  .overview-question { font-size: 25px; }
+}
+@media print {
+  .topic-overview-grid { display: block; }
+  .overview-card { break-inside: avoid; margin-bottom: 24px; background: white; }
+  .overview-focus,.overview-back { display: none; }
+}

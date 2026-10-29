@@ -92,9 +92,7 @@
 :root[data-theme="day"] .prompt-tabs button.active,
 :root[data-theme="day"] .prompt-tabs button.active:hover { color: var(--control-ink); border-color: var(--control-border); background: var(--control-bg); font-weight: 600; }
 :root[data-theme="day"] .branches button,
-:root[data-theme="day"] .notebook-link { color: #605e55; }
 :root[data-theme="day"] .branches button:hover,
-:root[data-theme="day"] .notebook-link:hover { color: #414735; }
 :root[data-theme="day"] .room h1 .serif { color: var(--ink); font-weight: 400; }
 :root[data-theme="day"] .room .room-prompt { color: #605e55; }
 :root[data-theme="day"] .spectrum button { color: #605e55; background: var(--control-idle); border-color: var(--control-idle-border); box-shadow: inset 0 0 0 4px #ffffff50; }
@@ -114,7 +112,6 @@
 :root[data-theme="day"] .dialog select,
 :root[data-theme="day"] .dialog textarea { color: var(--ink); background: #fffdf7; border-color: #bfb3a0; }
 :root[data-theme="day"] textarea::placeholder { color: #756d61; }
-:root[data-theme="day"] .host-note { background: #ebe5d9; }
 :root[data-theme="day"] .new-session { color: #704b3f; border-color: #bda18d; }
 :root[data-theme="day"] .toast { color: #fffdf7; background: var(--accent); box-shadow: 0 8px 24px #29211726; }
 @media (max-width:600px) {
