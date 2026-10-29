@@ -1,0 +1,15 @@
+Tool: Built-in image generation
+Reference: Approved concept 03, Open Loggia
+Asset: builder-miami-coastal-gate.png
+
+Final generation prompt:
+
+Create the final production logo asset from ONLY the bottom-left option 03 OPEN LOGGIA in this reference. This is a precise identity-preserving refinement/extraction, not a new design exploration.
+
+Output ONE standalone symbol, WITHOUT any text, wordmark, caption, comparison board, rule lines, or background. Genuine transparent PNG background with alpha everywhere outside the mark AND inside its open doorway, between column flutes, inside capital scrolls, and between its steps. No ivory rectangle, no paper, no shadow.
+
+Preserve the selected silhouette and exact basic arrangement: flat layered top cornice, graceful inner semicircular arch, two slim fluted classical columns, restrained Ionic scroll capitals, low stepped base, an asymmetrical palm inside the left half, and a single terracotta circular sun in the upper right. Keep the full base and top visible. Remove all distressed/rough edges and any mottled coloring. Architecture and palm are a solid uniform dark olive #505644. Sun is a solid uniform warm terracotta #b3643d.
+
+Refine for a website header: clean mathematical curves, crisp straight edges, perfectly symmetric architecture, clean circular sun. Simplify the palm to around 7 elegant continuous fronds with only a few broad deliberate cutouts, not fine sawtooth serrations. Widen the negative-space column flutes slightly so they remain open at small sizes. Make scroll capitals simpler but keep their recognizable outward curls. Two steps and a solid plinth, with strong clean separations. Preserve the calm proportions of 03. Do not add a triangular pediment, floor grid, extra ornaments, letters, or AI/Bitcoin icons.
+
+Portrait logo, approximately 0.93 width to 1 height. Tight but safe framing with only 3 percent transparent margin around all sides. High-resolution 1024 by 1120 or similar, flat vector-like finish. Actual transparent background, NOT a rendered checkerboard. The mark must be ready to use directly as a transparent image over both pale and dark site backgrounds.

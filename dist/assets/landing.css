@@ -152,7 +152,9 @@ h1 .bitcoin-heading { color: var(--bitcoin-heading); }
 .grove-credit { grid-area: credit; align-self: center; position: relative; padding: 34px; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 24px 55px -30px var(--shadow); }
 .grove-credit::after { content: ''; position: absolute; inset: 5px; border: 1px solid var(--line); opacity: .3; pointer-events: none; }
 .grove-credit>.eyebrow { margin: 0; color: var(--accent); }
-.grove-credit h2 { font: 400 38px/1.1 var(--serif); margin: 17px 0 21px; letter-spacing: -.4px; }
+.grove-credit h2 { font: 400 clamp(28px, 3.2vw, 38px)/1.1 var(--serif); margin: 17px 0 21px; letter-spacing: -.4px; }
+.grove-brand { display: inline-flex; align-items: center; gap: 16px; max-width: 100%; }
+.grove-logo { display: block; flex: 0 0 auto; width: 52px; height: auto; border-radius: 6px; }
 .grove-credit h2 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 6px; }
 .grove-credit>p:not(.eyebrow) { font-size: 14px; line-height: 1.8; color: var(--muted); }
 .grove-credit blockquote { margin: 25px 0; padding: 23px 0 0; border-top: 1px solid var(--line); font: italic 22px/1.5 var(--serif); color: var(--ink); }
