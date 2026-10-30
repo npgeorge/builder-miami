@@ -60,7 +60,7 @@
 .showcase-shell { min-height: calc(100svh - 204px); padding-top: 28px; padding-bottom: 36px; }
 .showcase-shell .links-heading { margin-bottom: 24px; }
 .showcase-shell .links-heading h1 { font-size: clamp(36px, 3.2vw, 54px); margin-bottom: 0; }
-.showcase-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 20px; }
+.showcase-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: auto; gap: 20px; }
 .showcase-entry { position: relative; min-width: 0; padding: clamp(22px, 2vw, 32px); border: 1px solid var(--line); background: var(--soft); }
 .showcase-entry>.eyebrow { margin-bottom: 12px; }
 .showcase-entry h2 { font-weight: 400; }
@@ -74,6 +74,8 @@
 .showcase-logo--spiral { background: #d9dfeb; }
 .showcase-logo--hoseki { background: #ede4c6; }
 .showcase-logo--bumbei { background: #f0e2bc; }
+.showcase-logo--balteus { background: #dce1e6; }
+.showcase-logo--blockrunner { background: #e8ddc4; }
 .showcase-logo img { display: block; width: 42px; height: 42px; object-fit: contain; filter: saturate(.65); opacity: .85; }
 .showcase-logo--hoseki img { width: 38px; height: 38px; }
 @media (max-width:600px) {
@@ -83,10 +85,13 @@
   .showcase-logo--hoseki img { width: 38px; height: 38px; }
 }
 .showcase-summary { margin-top: 16px; color: var(--muted); font-size: clamp(17px, 1.25vw, 21px); line-height: 1.55; }
-.showcase-feature { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); column-gap: 36px; align-items: center; align-content: center; }
-.showcase-feature>.eyebrow { grid-column: 1; grid-row: 1; }
+.showcase-feature { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); column-gap: 28px; align-items: center; align-content: center; padding: 20px clamp(22px, 2vw, 32px); }
+.showcase-feature>.eyebrow { grid-column: 1; grid-row: 1; margin-bottom: 10px; }
 .showcase-feature>h2 { grid-column: 1; grid-row: 2; }
-.showcase-feature>.showcase-summary { grid-column: 2; grid-row: 1 / span 2; margin-top: 0; }
+.showcase-feature .showcase-title { font-size: clamp(26px, 2.1vw, 34px); }
+.showcase-feature .showcase-logo { width: 50px; height: 50px; }
+.showcase-feature .showcase-logo img { width: 36px; height: 36px; }
+.showcase-feature>.showcase-summary { grid-column: 2; grid-row: 1 / span 2; margin-top: 0; font-size: clamp(16px, 1.12vw, 19px); line-height: 1.5; }
 @media (max-width:760px) {
   .showcase-grid { grid-template-columns: minmax(0, 1fr); grid-auto-rows: auto; }
   .showcase-feature { display: block; }
