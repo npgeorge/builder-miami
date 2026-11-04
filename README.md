@@ -1,6 +1,6 @@
-# Builder Miami · AI × Bitcoin
+# ₿uilder Miami · AI × Bitcoin
 
-Builder Miami is an open conversation about what’s happening in AI and Bitcoin, what it means for builders, and where the two might come together.
+₿uilder Miami is an open conversation about what’s happening in AI and Bitcoin, what it means for builders, and where the two might come together.
 
 We bring together Bitcoin builders, AI builders, and curious newcomers to explore recent developments, share perspectives, and find ideas worth building. Real products, announcements, research, and debates give us a starting point. The conversation follows the questions and experiences of the people in the room.
 

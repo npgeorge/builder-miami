@@ -1,4 +1,4 @@
-# Publishing Builder Miami
+# Publishing ₿uilder Miami
 
 This checkout is the working copy of `npgeorge/builder-miami`. Edit the website here and publish through GitHub Desktop. A separate upload folder is no longer needed.
 
@@ -11,8 +11,8 @@ This checkout is the working copy of `npgeorge/builder-miami`. Edit the website 
 
 GitHub Pages should publish from `main` and `/ (root)`. The repository root is the website root. No build command or dependencies are required.
 
-- `index.html`: the Builder Miami homepage and roundtable index.
-- `about/`: the Builder Miami overview and Bitcoin Grove organizer credit.
+- `index.html`: the ₿uilder Miami homepage and roundtable index.
+- `about/`: the ₿uilder Miami overview and Bitcoin Grove organizer credit.
 - `events/`: a permanent dated folder for each roundtable.
 - `dist/`: shared artwork and styles, plus a redirect for the original `/dist/` event link.
 - `CNAME`: the custom domain, `buildermiami.ai`.
