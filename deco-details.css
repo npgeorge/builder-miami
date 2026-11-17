@@ -38,3 +38,9 @@
 .currency-b::before { top:-.05em; }
 .currency-b::after { top:.795em; }
 @media (max-width:700px) { .header-tile-divider { gap:4px; padding-inline:12px; }.header-tile-divider i { width:7px;height:8px; }.header-tile-divider i:nth-child(11) { width:8px;height:10px; } }
+
+/* Host credits link to their profiles while retaining the name styling. */
+.event-credits a.host-profile,.event-hosts a.host-profile { color:var(--ink); text-decoration:underline; text-decoration-color:var(--brass); text-decoration-thickness:1px; text-underline-offset:3px; }
+.event-credits a.host-profile strong,.event-hosts a.host-profile strong { color:inherit; }
+.event-credits a.host-profile:hover,.event-hosts a.host-profile:hover { color:var(--orange); text-decoration-color:currentColor; }
+.host-profile:focus-visible { outline:2px solid var(--orange); outline-offset:4px; }
