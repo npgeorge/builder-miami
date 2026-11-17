@@ -1,0 +1,37 @@
+/* Match Home/About while retaining the established discussion layout. */
+:root[data-theme="night"] {
+ --deco-surface:#121520; --deco-control:#1c2430; --deco-hover:#202b35;
+ --moulding:var(--line); --ornament:var(--brass); --frame-wash:transparent;
+ --gallery-edge:var(--faint-brass); --gallery-inner:var(--line);
+ --gallery-shadow:transparent; --gallery-active:#1c2430; --gallery-surface:var(--deco-surface);
+ --control-bg:#1c2430; --control-border:var(--line); --control-ink:var(--ink);
+ --control-hover:#202b35; --control-idle:var(--deco-surface); --control-idle-border:var(--line);
+ --rose:#d3a1ae;
+}
+:root[data-theme="night"] body.deco-discussion { background:var(--paper); background-image:none; }
+:root[data-theme="night"] .deco-discussion ::selection { background:#a1e8de35; color:var(--ink); }
+:root[data-theme="night"] .deco-discussion .site-header,
+:root[data-theme="night"] .deco-discussion .topic-nav { background:var(--paper); }
+.deco-discussion .site-header .header-actions { gap:18px; }
+.deco-discussion .home .talk-title { text-shadow:none; }
+:root[data-theme="night"] .deco-discussion .builder-mark { filter:brightness(1.9) saturate(.88); }
+:root[data-theme="night"] .deco-discussion .frame-corners i { background-image:url('assets/deco-corner-night.svg'); }
+:root[data-theme="night"] .deco-discussion .topic-heading::before,
+:root[data-theme="night"] .deco-discussion .links-heading::before,
+:root[data-theme="night"] .deco-discussion .room::before,
+:root[data-theme="night"] .deco-discussion .global-footer::before { background-image:url('assets/deco-crest-night.svg'); background-color:var(--paper); }
+:root[data-theme="night"] .deco-discussion .topic-row:hover,
+:root[data-theme="night"] .deco-discussion .primary:hover { background:var(--deco-hover); }
+:root[data-theme="night"] .deco-discussion .event-sponsor { background:var(--deco-control); }
+:root[data-theme="night"] .deco-discussion .primary,
+:root[data-theme="night"] .deco-discussion .spectrum button.selected { background:var(--deco-control); color:var(--ink); }
+:root[data-theme="night"] .deco-discussion .focus-prompt+.focus-prompt::before { box-shadow:0 0 0 5px var(--deco-surface); }
+:root[data-theme="night"] .deco-discussion .preview-logo { background:#d9ded5; }
+:root[data-theme="night"] .deco-discussion .source-format,
+:root[data-theme="night"] .deco-discussion .prompt-nudge,
+:root[data-theme="night"] .deco-discussion .branches button { color:var(--muted); }
+:root[data-theme="night"] .deco-discussion .showcase-logo { background:#c6c8bb; }
+:root[data-theme="night"] .deco-discussion .showcase-logo img { opacity:1; }
+@media(max-width:900px) {
+ .deco-discussion .site-header .header-actions { display:flex; gap:10px; }
+}

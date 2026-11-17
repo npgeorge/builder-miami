@@ -1,0 +1,31 @@
+{
+  "mode": "Built-in image_gen",
+  "commonPrompt": "Use case: stylized-concept. Asset type: one decorative editorial marker for a new roundtable on a refined Miami website. Create a compact small illustration, not a UI dot or generic icon. Reference image 1 is the existing fine architectural engraving, reference image 2 its botanical engraving companion. Use them ONLY as style and ink references; create a new original composition. Printed antique botanical / Renaissance copperplate quality, precise tasteful contour and lightly hatched inner details, readable silhouette. Main ink muted dark olive #555c46 with only a tiny muted terracotta #ad582e accent. Flat clean ivory #fffef7 background, no texture or shadow outside the drawing. Compact motif approximately 3:4 proportions occupying central 70% of a square canvas. It will be displayed about 72px wide and 90px tall, beside a 250px-tall talk thumbnail. Needs presence, restrained elegance and finely crafted illustrative detail, never cartoonish, never a full scene. No lettering, numbering, border, mockup, gradient, bevel, full column shaft or long extension.",
+  "concepts": [
+    {
+      "id": "01-acanthus-curl",
+      "name": "Acanthus Curl",
+      "prompt": "Subject: a single sculptural acanthus leaf curling gracefully into a short C-shaped Renaissance scroll. Three broad deeply cut lobes and delicate engraved veins, mostly open ivory inside. One tiny terracotta seed tucked near the foot. A self-contained organic ornament, lightly asymmetric, no long stem."
+    },
+    {
+      "id": "02-palm-and-sun",
+      "name": "Palm & Sun",
+      "prompt": "Subject: a compact fan palm botanical sprig with five graceful folded leaf blades emerging from a very short curved stem. One small terracotta sun disc nestles in the upper-right negative space. Crisp dark olive botanical line engraving, graceful natural shape rather than a solid silhouette. A miniature Miami vignette, without landscape or horizon."
+    },
+    {
+      "id": "03-ionic-palmette",
+      "name": "Ionic Palmette",
+      "prompt": "Subject: a very short Ionic architectural capital with elegant paired spiral volutes and a small central palmette leaf rising above. Thin abacus, small fluted neck terminating immediately in a carved acanthus tip. The entire decorative element is compact and almost square, no column shaft. Fine olive architectural engraving and a small terracotta accent between the volutes."
+    },
+    {
+      "id": "04-coastal-compass",
+      "name": "Coastal Compass",
+      "prompt": "Subject: a refined Renaissance cartographer's eight-point compass rose, open alternating olive engraved facets, long north-south points only slightly extended, one tiny terracotta central sun. A single understated acanthus tendril cups the lower left edge without enclosing it. A compact navigational ornament, no circle border, no letters or numbers, fine linework and lots of ivory negative space."
+    },
+    {
+      "id": "05-sail-and-swell",
+      "name": "Sail & Swell",
+      "prompt": "Subject: a small antique engraved sailboat with one elegant triangular ivory sail, muted olive rigging and hull, above two short delicately curled water strokes. A tiny terracotta sun placed to the upper right of the sail. Compact standalone book ornament, coastal Miami bay feeling, no background scenery, skyline, enclosure or frame. Refined crisp linework rather than cartoon drawing."
+    }
+  ]
+}

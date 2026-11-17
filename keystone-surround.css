@@ -1,0 +1,15 @@
+/* Extend the keystone surround while preserving the supplied mosaic. */
+body.keystone-surround { position:relative; }
+.keystone-surround .site { background:transparent; }
+.keystone-surround .keystone-backdrop {
+ position:absolute; inset:0 0 auto; height:var(--keystone-section-end,850px);
+ background:var(--paper) url('assets/florida-keystone-surround.png') center top / var(--keystone-texture-size,1200px) auto repeat;
+ pointer-events:none;
+}
+html[data-theme="night"] .keystone-surround .keystone-backdrop { display:none; }
+.keystone-surround .site::before,.keystone-surround .site::after { top:var(--keystone-section-end,850px); }
+.keystone-surround .header-tile-divider { background:transparent; }
+.keystone-surround .mosaic-hero { margin-bottom:84px; }
+@media(max-width:700px) {
+ .keystone-surround .mosaic-hero { margin-bottom:58px; }
+}

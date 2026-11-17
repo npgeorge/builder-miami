@@ -1,0 +1,145 @@
+[
+  {
+    "id": "biscayne-bay",
+    "name": "Biscayne Bay",
+    "category": "Coastal scenes",
+    "file": "exec-7423b8ad-70e2-47f6-a2ee-b68c650c6584.png"
+  },
+  {
+    "id": "south-beach",
+    "name": "South Beach",
+    "category": "Coastal scenes",
+    "file": "exec-58c335f0-0e9e-4b35-87cd-5ae9e3c1119b.png"
+  },
+  {
+    "id": "grove-garden",
+    "name": "Grove Garden",
+    "category": "Coastal scenes",
+    "file": "exec-97377944-6b50-4048-9b25-2e90e35c6753.png"
+  },
+  {
+    "id": "atlantic-loggia",
+    "name": "Atlantic Loggia",
+    "category": "Coastal scenes",
+    "file": "exec-4733723d-78ea-4ec4-b0e4-7b28e2b8a118.png"
+  },
+  {
+    "id": "coastal-atlas",
+    "name": "Coastal Atlas",
+    "category": "Coastal scenes",
+    "file": "exec-75430006-96cf-4a34-bf9b-e457176be635.png"
+  },
+  {
+    "id": "architecture",
+    "name": "Column & Acanthus",
+    "category": "Details & ornaments",
+    "file": "exec-06a720de-823d-4110-842e-9a4ec2afbb33.png"
+  },
+  {
+    "id": "botanical",
+    "name": "Palm & Sea Grape Sprig",
+    "category": "Details & ornaments",
+    "file": "exec-d57bc93d-e19a-41cf-aa7e-08ec9a9c62cd.png"
+  },
+  {
+    "id": "coast",
+    "name": "Sailboat & Skyline",
+    "category": "Details & ornaments",
+    "file": "exec-fc5d24ad-42d5-4742-8fbb-43dc8f8ba8a0.png"
+  },
+  {
+    "id": "palm",
+    "name": "Palm Fan",
+    "category": "Details & ornaments",
+    "file": "exec-c27ee490-93a0-438f-a73a-0bbba14e6531.png"
+  },
+  {
+    "id": "grape",
+    "name": "Sea Grape",
+    "category": "Details & ornaments",
+    "file": "exec-6a5e7b54-e5b9-4d5a-84f0-9cc1879ccb23.png"
+  },
+  {
+    "id": "vine",
+    "name": "Bougainvillea Corner",
+    "category": "Details & ornaments",
+    "file": "exec-2569e786-4231-40af-b2d9-6eef513ce177.png"
+  },
+  {
+    "id": "mangrove",
+    "name": "Mangrove Roots",
+    "category": "Details & ornaments",
+    "file": "exec-6a08ba7b-fd00-44e1-8c9f-416ad6dc28a9.png"
+  },
+  {
+    "id": "shell",
+    "name": "Shell & Scroll",
+    "category": "Details & ornaments",
+    "file": "exec-b5b74bcf-e752-489a-a929-d114759a3add.png"
+  },
+  {
+    "id": "loggia",
+    "name": "Loggia Corner",
+    "category": "Details & ornaments",
+    "file": "exec-30f3a9ed-1d44-42f1-b559-916e627926b3.png"
+  },
+  {
+    "id": "deco",
+    "name": "Deco Sunrise",
+    "category": "Details & ornaments",
+    "file": "exec-50b483f5-1a79-430a-b7fa-f5725b7d8b06.png"
+  },
+  {
+    "id": "compass",
+    "name": "Compass & Sail",
+    "category": "Details & ornaments",
+    "file": "exec-c80c1134-4aa5-4b4e-9dc0-dd04793f51da.png"
+  },
+  {
+    "id": "pelican",
+    "name": "Biscayne Pelican",
+    "category": "Details & ornaments",
+    "file": "exec-f2b75467-28c0-4ce1-92c8-cb0726372fa0.png"
+  },
+  {
+    "id": "wave",
+    "name": "Atlantic Flourish",
+    "category": "Details & ornaments",
+    "file": "exec-5afeb248-6b48-4acc-a256-adc0f65aa5c2.png"
+  },
+  {
+    "id": "01-acanthus-curl",
+    "name": "Acanthus Curl",
+    "category": "Talk markers",
+    "file": "exec-ee3848f2-fdb2-4fec-86ee-55bc08b9f4d6.png",
+    "transparent": true
+  },
+  {
+    "id": "02-palm-and-sun",
+    "name": "Palm & Sun",
+    "category": "Talk markers",
+    "file": "exec-8d024b3f-c86b-4754-9322-15f453065cc6.png",
+    "transparent": true
+  },
+  {
+    "id": "03-ionic-palmette",
+    "name": "Ionic Palmette",
+    "category": "Talk markers",
+    "file": "exec-6131ed6d-967a-4343-bbf2-5401ec651db4.png",
+    "transparent": true
+  },
+  {
+    "id": "04-coastal-compass",
+    "name": "Coastal Compass",
+    "category": "Talk markers",
+    "file": "exec-0c8eeab6-b897-4736-aebd-3b611aa359c4.png",
+    "transparent": true
+  },
+  {
+    "id": "05-sail-and-swell",
+    "name": "Sail & Swell",
+    "category": "Talk markers",
+    "file": "exec-a7611e5d-69ca-448e-967b-0f3b62714332.png",
+    "transparent": true
+  }
+]

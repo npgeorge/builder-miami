@@ -1,0 +1,47 @@
+/* Shared local day/night preview. The published site is unchanged. */
+.site-header .theme-switch { display:inline-flex; }
+.site-header .theme-switch button { width:30px; height:30px; }
+.site-header .theme-switch button[aria-pressed=true] { background:#e9ddd0; }
+.site-header .header-actions { gap:25px; }
+:root[data-theme="night"] {
+  color-scheme:dark;
+  --paper:#0b0d18;
+  --ink:#f2eee5;
+  --muted:#b9b6bf;
+  --orange:#dda078;
+  --accent:#a1e8de;
+  --green:#72a895;
+  --soft:#1c2430;
+  --line:#b9b6be38;
+  --brass:#9c876a;
+  --gold:#9c876a;
+  --faint-brass:#343744;
+}
+:root[data-theme="night"] .event,
+:root[data-theme="night"] .about-story,
+:root[data-theme="night"] .grove { background:#121520; }
+:root[data-theme="night"] .hero { background:transparent; }
+:root[data-theme="night"] .site-header .theme-switch button[aria-pressed=true] { background:#27313b; color:#d1ece6; }
+:root[data-theme="night"] .portrait-frame:before { border-color:#566658; }
+:root[data-theme="night"] .portrait-frame:after { border-color:#6f7a69; }
+:root[data-theme="night"] .event-sponsor img { filter:brightness(0) invert(.91); }
+:root[data-theme="night"] .grove h2 img { border-radius:0; }
+:root[data-theme="night"] .deco-corners i { background-image:url('assets/deco-corner-night.svg'); }
+:root[data-theme="night"] .section-heading:before,
+:root[data-theme="night"] .about-lockup:before,
+:root[data-theme="night"] .about-themes h2:before,
+:root[data-theme="night"] .footer-credits:before { background-image:url('assets/deco-crest-night.svg'); }
+:root[data-theme="night"] .primary-link:after { background:#d79a81; box-shadow:0 0 4px #eaa28726; }
+:root[data-theme="night"] .header-tile-divider i { opacity:.8; }
+:root[data-theme="night"] .header-tile-divider i:nth-child(11) { opacity:1; }
+:root[data-theme="night"] .keystone-surround .keystone-backdrop { display:block; background:var(--paper) url('assets/florida-keystone-surround-night.png') center top / var(--keystone-texture-size,1200px) auto repeat; filter:brightness(.76) saturate(.85); }
+:root[data-theme="night"] .coastal-footer img { filter:none; mix-blend-mode:lighten; opacity:1; }
+:root[data-theme="night"] .art { filter:grayscale(.75) invert(1) hue-rotate(180deg); mix-blend-mode:screen; opacity:.48; }
+@media(max-width:700px) {
+ .site .site-header { display:grid; grid-template-columns:minmax(0,1fr) auto; row-gap:2px; }
+ .site .site-header .header-actions { display:contents; }
+ .site .site-header .brand { grid-column:1; grid-row:1; }
+ .site .site-header .theme-switch { grid-column:2; grid-row:1; }
+ .site .site-header nav { grid-column:1 / -1; grid-row:2; justify-content:flex-end; gap:24px; }
+ .site .site-header nav a { font-size:12px; }
+}

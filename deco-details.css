@@ -1,0 +1,40 @@
+/* Shared palette and 21-tile signature. */
+:root, :root[data-theme="day"] {
+  color-scheme: light;
+  --paper: #fff;
+  --ink: #294e3e;
+  --muted: #626459;
+  --orange: #a95232;
+  --accent: #a95232;
+  --green: #294e3e;
+  --line: #ded6c8;
+  --soft: #fff;
+  --brass: #b58b49;
+  --gold: #b58b49;
+  --faint-brass: #e8e0d3;
+}
+.header-tile-divider {
+  position: absolute; left: 50%; bottom: -7px; transform: translateX(-50%);
+  height: 14px; display: flex; align-items: center; gap: 5px; padding: 0 14px;
+  background: var(--paper); pointer-events: none;
+}
+.header-tile-divider i {
+  position: relative; display: block; flex: none; width: 9px; height: 10px;
+  border: 0; border-radius: 1px; color: var(--brass); transform: none;
+  background: currentColor;
+  box-shadow: inset 1px 1px 0 #ffffff40, inset -1px -1px 0 #00000020, 0 1px 1px #00000015;
+}
+.header-tile-divider i::after { content: ''; position: absolute; inset: 2px; border-top: 1px solid #ffffff20; }
+.header-tile-divider i:nth-child(3n + 1) { color: var(--green); }
+.header-tile-divider i:nth-child(3n + 2) { color: var(--orange); }
+.header-tile-divider i:nth-child(4n) { border-radius: 1px 2px 1px 0; }
+.header-tile-divider i:nth-child(11) { width: 10px; height: 12px; }
+.site-header nav a { font-family:Cinzel,Georgia,serif; font-weight:500; letter-spacing:.035em; }
+.brand-wordmark { white-space:nowrap; }
+.currency-b { display:inline-block; position:relative; line-height:1; }
+/* Both pairs occupy the Cinzel B's straight stem: x=.131em–.224em.
+   Draw fractional-width bars as a fill so borders cannot expand the pair. */
+.currency-b::before,.currency-b::after { content:''; position:absolute; left:.131em; width:.093em; height:.16em; border:0; box-sizing:border-box; background:linear-gradient(to right,currentColor 0 .035em,transparent .035em .058em,currentColor .058em 100%); pointer-events:none; }
+.currency-b::before { top:-.05em; }
+.currency-b::after { top:.795em; }
+@media (max-width:700px) { .header-tile-divider { gap:4px; padding-inline:12px; }.header-tile-divider i { width:7px;height:8px; }.header-tile-divider i:nth-child(11) { width:8px;height:10px; } }

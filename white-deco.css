@@ -1,0 +1,130 @@
+/* Art Deco and Renaissance page styling. */
+:root[data-theme="day"] { --paper:#f7f3ed; }
+html,body,.site { background:var(--paper); background-image:none; }
+.site { position:relative; max-width:1540px; }
+.site::before,.site::after { content:""; position:absolute; top:132px; bottom:280px; width:1px; background:linear-gradient(transparent,var(--faint-brass) 120px,var(--faint-brass) calc(100% - 120px),transparent); pointer-events:none; z-index:0; }
+.site::before { left:3%; }.site::after { right:3%; }
+.site-header { position:relative; border-bottom:1px solid var(--line); width:89%; padding:24px 0; }
+.site-header .theme-switch { display:none; }
+.site-header .header-actions { display:flex; }
+.site-header nav { margin:0; }
+.site-header nav a { position:relative; padding:12px 0; }
+.site-header nav a[aria-current=page]:after { content:""; position:absolute; left:calc(50% - 2px); bottom:3px; width:4px; height:4px; background:var(--orange); transform:rotate(45deg); }
+.brand { color:var(--ink); letter-spacing:.025em; }
+.mosaic-hero { width:89%; max-width:1200px; margin:34px auto 48px; position:relative; }
+.mosaic-hero img { display:block; width:100%; height:auto; }
+/* Flat keystone-white surround; the artwork supplies the texture. */
+.stone-surround .site::before,.stone-surround .site::after { top:132px; }
+.roundtables { width:80%; max-width:1080px; position:relative; }
+.section-heading { display:flex; flex-direction:column; align-items:center; text-align:center; gap:10px; padding:0 0 28px; border:0; }
+.section-heading:before { content:""; display:block; width:300px; max-width:70%; aspect-ratio:400/52; background:url('assets/deco-crest.svg') center/contain no-repeat; margin-bottom:13px; }
+.section-heading h2 { font:500 clamp(23px,2.4vw,32px)/1.4 Cinzel,Georgia,serif; letter-spacing:.015em; color:var(--ink); }
+.section-heading .eyebrow { font-size:10px; letter-spacing:.2em; }
+.event { position:relative; padding:36px 35px; margin:12px 0 0; border:1px solid var(--faint-brass); background:#fff; }
+.deco-corners { position:absolute; inset:-1px; pointer-events:none; z-index:1; }
+.deco-corners i { position:absolute; width:44px; height:44px; background:url('assets/deco-corner.svg') 0 0/contain no-repeat; }
+.deco-corners i:nth-child(1) { left:0; top:0; }
+.deco-corners i:nth-child(2) { right:0; top:0; transform:scaleX(-1); }
+.deco-corners i:nth-child(3) { left:0; bottom:0; transform:scaleY(-1); }
+.deco-corners i:nth-child(4) { right:0; bottom:0; transform:scale(-1); }
+.event-spread { grid-template-columns:minmax(150px,210px) minmax(0,1fr); gap:7%; align-items:center; }
+.portrait-frame:before { border-color:#c7ac7b; inset:-7px; }
+.portrait-frame:after { content:""; position:absolute; bottom:-15px; left:12%; right:12%; border-bottom:3px double var(--brass); }
+.event-marker { width:53px; left:-105px; }
+.event-copy h2 { font-size:clamp(27px,2.6vw,36px); line-height:1.18; color:var(--ink); }
+.event-kicker .eyebrow { color:var(--orange); font-size:10px; letter-spacing:.15em; }
+.description { font-size:14px; line-height:1.8; }
+.event-credits { border-top:1px solid var(--faint-brass); padding-top:14px; }
+.event-sponsor a { color:var(--ink); }
+.primary-link { border-bottom-color:var(--brass); position:relative; }
+.primary-link:after { content:""; position:absolute; bottom:-3px; left:0; width:5px; height:5px; background:var(--orange); transform:rotate(45deg); }
+.primary-link:hover { color:var(--ink); }
+.primary-link .link-arrow { transition:transform .18s; }.primary-link:hover .link-arrow { transform:translate(2px,-2px); }
+.site-footer { margin-top:64px; padding-top:0; background:var(--paper); }
+.footer-credits { border-top:1px solid var(--faint-brass); padding:29px 0 24px; position:relative; }
+.footer-credits:before { content:""; position:absolute; width:210px; max-width:45%; height:28px; left:50%; top:-28px; transform:translateX(-50%); background:var(--paper) url('assets/deco-crest.svg') center bottom/contain no-repeat; }
+.footer-brand>span { letter-spacing:.04em; color:var(--ink); }
+.coastal-footer { background:var(--paper); }
+.coastal-footer img { opacity:1; mix-blend-mode:normal; }
+html[data-theme="day"] .coastal-footer img { mix-blend-mode:multiply; }
+.about-hero { min-height:0; padding:54px 12% 60px; }
+.about-lockup { max-width:460px; gap:20px; }
+.about-lockup .about-sunrise { display:none; }
+.about-lockup:before { content:""; width:300px; max-width:85%; aspect-ratio:400/52; background:url('assets/deco-crest.svg') center/contain no-repeat; }
+.about-wordmark { font:500 clamp(32px,4vw,50px)/1.2 Cinzel,Georgia,serif; letter-spacing:.015em; text-align:center; }
+.about-layout { width:80%; max-width:1080px; gap:6%; align-items:stretch; }
+.about-story,.grove { position:relative; padding:30px; border:1px solid var(--faint-brass); background:#fff; }
+.about-story h1 { font:500 29px/1.3 Cinzel,Georgia,serif; margin-bottom:24px; }
+.about-story .lead { font-size:23px; line-height:1.5; }
+.about-story p,.grove p { font-size:14px; line-height:1.85; }
+.grove h2 { font-size:28px; margin:16px 0 22px; }
+.grove h2 img { width:34px; height:40px; }
+.grove blockquote { font-size:22px; line-height:1.5; color:var(--ink); }
+.about-pelican { width:62px; left:-87px; }
+.grove-art { width:72px; right:-94px; }
+.about-themes { margin-top:68px; max-width:700px; }
+.about-themes h2 { font:500 29px/1.4 Cinzel,Georgia,serif; }
+.about-themes h2:before { content:""; display:block; width:240px; max-width:65%; aspect-ratio:400/52; margin:0 auto 24px; background:url('assets/deco-crest.svg') center/contain no-repeat; }
+.about-themes ul { counter-reset:theme; }
+.about-themes li { counter-increment:theme; position:relative; padding:23px 0 23px 56px; border-color:var(--faint-brass); }
+.about-themes li:before { content:counter(theme,upper-roman); position:absolute; left:0; top:26px; color:var(--brass); font:500 16px/1.5 Cinzel,Georgia,serif; }
+.about-themes strong { color:var(--ink); font:500 20px/1.5 Cinzel,Georgia,serif; }
+.about-themes .primary-link { margin-top:18px; }
+@media(min-width:701px) and (max-width:1000px) {
+ .roundtables,.about-layout { width:82%; }
+ .event { padding:30px 25px; }
+ .event-spread { grid-template-columns:160px minmax(0,1fr); gap:7%; }
+ .event-marker { width:37px; left:-76px; }
+ .event-date span { display:block; margin-left:0; }
+ .about-story,.grove { padding:24px; }
+ .about-story .lead { font-size:21px; }.grove h2 { font-size:24px; }
+ .about-pelican { width:45px; left:-61px; }.grove-art { width:49px; right:-64px; }
+}
+@media(max-width:700px) {
+ .site:before,.site:after { display:none; }
+ .site-header { display:flex; flex-wrap:wrap; width:88%; padding:20px 0 18px; gap:10px; }
+ .site-header .header-actions { margin-left:auto; }
+ .site-header nav { gap:21px; }
+ .site-header nav a { min-height:44px; display:inline-flex; align-items:center; font-size:12px; }
+ .site-header .brand { font-size:17px; }
+ .site-header .brand img { width:32px; height:38px; }
+ .mosaic-hero { width:100%; margin:25px auto 31px; }
+ .roundtables,.about-layout { width:88%; }
+ .section-heading { gap:8px; padding-bottom:18px; }
+ .section-heading:before { width:195px; margin-bottom:8px; }
+ .section-heading h2 { font-size:21px; }
+ .section-heading .eyebrow { font-size:9px; letter-spacing:.18em; }
+ .event { padding:25px 19px; margin-top:10px; }
+ .deco-corners i { width:28px; height:28px; }
+ .event-spread { grid-template-columns:92px minmax(0,1fr); gap:17px; }
+ .portrait-column { width:86px; padding:0; margin:4px 0 6px; }
+ .portrait-frame:before { inset:-5px; }
+ .portrait-frame:after { bottom:-11px; }
+ .event-marker { display:none; }
+ .event-kicker { display:flex; flex-direction:column; gap:5px; }
+ .event-kicker .eyebrow { font-size:10px; line-height:1.8; }
+ .event-kicker .status { font-size:10px; }
+ .event-date { margin-top:0; font-size:11px; }
+ .event-copy h2 { font-size:29px; line-height:1.2; margin-top:15px; }
+ .event-credits { padding-top:13px; margin-top:0; }
+ .description { font-size:13px; line-height:1.85; }
+ .actions { gap:15px; }.actions a { font-size:12px; }
+ .actions .primary-link { min-height:42px; }
+ .site-footer { margin-top:53px; }
+ .footer-credits { width:86%; padding-top:24px; }
+ .about-hero { padding:42px 8% 38px; }
+ .about-lockup { gap:18px; }.about-lockup:before { width:220px; }
+ .about-wordmark { font-size:34px; }
+ .about-layout { gap:30px; }
+ .about-story,.grove { padding:25px; }
+ .about-story h1 { font-size:26px; }.about-story .lead { font-size:22px; }
+ .about-pelican,.grove-art { display:none; }
+ .about-themes { width:84%; margin-top:50px; }.about-themes h2 { font-size:25px; }
+ .about-themes li { padding-left:40px; }.about-themes li:before { font-size:14px; }
+}
+@media(prefers-reduced-motion:reduce) { .primary-link .link-arrow { transition:none; } }
+
+/* Space archived roundtables as the collection grows. */
+.event + .event { margin-top:32px; }
+#november-2026-title { text-wrap:balance; font-size:clamp(25px,2.15vw,32px); line-height:1.22; }
+@media(max-width:700px) { #november-2026-title { font-size:28px; } }
