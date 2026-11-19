@@ -56,3 +56,5 @@
 .deco-discussion .context .case-principle { width:100%; margin:24px 0 4px; padding:20px 0; border-bottom:1px solid var(--faint-brass); }
 
 .deco-discussion .overview-discussion .case-principle { margin-bottom:24px; }
+
+.deco-discussion .overview-card .source-list { grid-template-rows:repeat(var(--overview-source-count,3),minmax(min-content,1fr)); }

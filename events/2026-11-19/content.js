@@ -57,6 +57,15 @@ window.NOVEMBER_ROUNDTABLE = {
       "note": "Opinion; X blocked automated reading.",
       "verification": "Original URL opened; 403; description based on supplied agenda."
     },
+    "build-1-source-6": {
+      "title": "Architect Labs · Frostbite CPU",
+      "url": "https://x.com/architectlabs/status/2123187520276152487",
+      "format": "Announcement · Video",
+      "date": "November 18, 2026",
+      "summary": "Architect Labs says agent swarms co-designed Frostbite’s instruction set and chip architecture, then verified and optimized the CPU through its final chip layout.",
+      "note": "Company-reported design and performance claims; the post does not independently establish manufactured-silicon results.",
+      "verification": "Read the original Architect Labs announcement in the browser on November 19, 2026; video not played."
+    },
     "build-2-source-1": {
       "title": "Schaeffler · Humanoids Making Humanoids",
       "url": "https://www.schaeffler.cn/en/news_media/press_releases/press_releases_detail.jsp?id=88226241",
@@ -71,9 +80,9 @@ window.NOVEMBER_ROUNDTABLE = {
       "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
       "format": "Research + Videos",
       "date": "November 2026 reading list",
-      "summary": "NVIDIA demonstrates learning from human video and adapting to new robot tasks with a small number of demonstrations.",
+      "summary": "NVIDIA’s GR00T 2 transfers skills from human video and other robots, with zero-shot performance on new tasks and rapid adaptation from a few demonstrations.",
       "note": "Developer benchmark; code availability announced for December.",
-      "verification": "Original research page read.",
+      "verification": "Original research page re-read November 19, 2026; distinguishes zero-shot transfer from adaptation with five demonstrations.",
       "showcaseLabel": "Product Demo",
       "showcaseTitle": "NVIDIA GR00T 2"
     },
@@ -91,18 +100,18 @@ window.NOVEMBER_ROUNDTABLE = {
       "url": "https://x.com/XiaomiTech_/status/2117542298238222588",
       "format": "Video · Company Claim",
       "date": "November 2026 reading list",
-      "summary": "Xiaomi presents humanoids performing an eight-hour sorting shift at its electric-vehicle factory.",
-      "note": "The agenda notes a sped-up video without intervention or success-rate data; X blocked automated reading.",
-      "verification": "Original URL opened; 403; claim retained as supplied company claim."
+      "summary": "Xiaomi reports an eight-hour humanoid sorting task at its auto factory, with autonomous anomaly detection and correction alongside the production line.",
+      "note": "Company-reported factory demonstration; the post does not establish zero-shot learning or provide intervention and success-rate data.",
+      "verification": "Original Xiaomi Tech post read in the browser November 19, 2026; video not played."
     },
     "build-2-source-5": {
       "title": "DeepMind · Gemini Robotics 2.5",
       "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
       "format": "Research + Videos",
       "date": "November 2026 reading list",
-      "summary": "DeepMind reports broader robot skills and a Mercedes-Benz production-line proof of concept using Apollo humanoids.",
+      "summary": "DeepMind’s Gemini Robotics 2.5 applies a shared model across robot types and a broader set of tasks, with an Apollo humanoid factory proof of concept.",
       "note": "Company-reported proof of concept, not a general deployment success rate.",
-      "verification": "Original research article read."
+      "verification": "Original research article re-read November 19, 2026; reports evaluations across 200 tasks and multiple robot types."
     },
     "build-3-source-1": {
       "title": "DeepMind · Verifying Signal’s Code",
@@ -148,6 +157,15 @@ window.NOVEMBER_ROUNDTABLE = {
       "summary": "Anthropic documents disclosed vulnerability chains, including a patched Linux networking flaw, and its defensive research workflow.",
       "note": "Lab demonstrations under described conditions; not evidence that every installation is exploitable.",
       "verification": "Original research report read; replaces commentary and secondary CVE write-up."
+    },
+    "build-3-source-6": {
+      "title": "OpenVersions · Claims, Code & Evidence",
+      "url": "https://openversions.com/",
+      "format": "Research Platform",
+      "date": "November 2026 · Reviewed Nov 19",
+      "summary": "OpenVersions publishes papers, code and data together, checks claims against the supplied evidence, and lets others search, cite and extend specific versions.",
+      "note": "Evidence-support checks are different from mathematical proof or independent replication; readers can inspect the explanations and cited sources.",
+      "verification": "Official home page and How It Works documentation read November 19, 2026."
     },
     "own-1-source-1": {
       "title": "Rauch: Own your intelligence",
@@ -288,6 +306,15 @@ window.NOVEMBER_ROUNDTABLE = {
       "note": "Opinion and a discussion prompt, not a claim that offline groups are automatically private.",
       "verification": "Original post retained from the agenda; direct fetch returned a cache miss Nov 16."
     },
+    "own-3-source-6": {
+      "title": "Prime Intellect · Model Factory",
+      "url": "https://www.primeintellect.ai/blog/introducing-model-factory",
+      "format": "Product Launch",
+      "date": "November 18, 2026",
+      "summary": "Prime Intellect brings model training, deployment and improvement from production feedback into one platform, with hosted or dedicated infrastructure and support for customers’ own GPUs.",
+      "note": "A platform for teams building their own models, not a local personal-assistant app. Control of weights and control of infrastructure are separate choices.",
+      "verification": "Original November 18 launch article located November 19, 2026; confirms the Model Factory announcement in Prime Intellect’s X post."
+    },
     "connect-1-source-1": {
       "title": "Paraguay’s Central Bank: Ueno Bank Resolution",
       "url": "https://www.bcp.gov.py/web/institucional/w/banco-central-inicia-el-procedimiento-de-resolucion-de-ueno-bank",
@@ -343,13 +370,13 @@ window.NOVEMBER_ROUNDTABLE = {
       "verification": "Re-read November 17, 2026; confirms the fee schedule, settlement choices, eligibility restrictions, transaction limits and device-specific NFC support."
     },
     "connect-2-source-2": {
-      "title": "WLRN: Miami-Dade tax payments",
-      "url": "https://www.wlrn.org/news-in-brief/2026-11-10/miami-dade-county-tax-collector-dariel-fernandez-announces-bitcoin-payment-method-for-property-taxes",
-      "format": "Local reporting",
-      "date": "November 2026 reading list",
-      "summary": "WLRN reports the announced November 19 launch of an optional Bitcoin property-tax payment method.",
-      "note": "As of this November 16 preparation, launch is scheduled; the office receives dollars and the processor and fees remain unspecified in this report.",
-      "verification": "Read November 16, 2026; used instead of the CBS headline because it states the future start date clearly."
+      "title": "River: Send Bitcoin Using Cash",
+      "url": "https://support.river.com/hc/en-us/articles/57181903152787-How-do-I-send-bitcoin-using-cash",
+      "format": "Product documentation",
+      "date": "November 19, 2026 announcement",
+      "summary": "River lets users fund a bitcoin send with cash or a linked bank account, buying and sending in one step without drawing on existing bitcoin holdings.",
+      "note": "Standard buy fees, spread, network fees and account limits still apply.",
+      "verification": "Read November 19, 2026; followed River's announcement at https://x.com/River/status/2123441347562705274 to its linked Help Center article."
     },
     "connect-2-source-3": {
       "title": "Bull Bitcoin: Payjoin trading",
@@ -659,6 +686,24 @@ window.NOVEMBER_ROUNDTABLE = {
       "note": "A one-lab assessment with uncertainty, not proof of inevitable runaway development or a particular policy prescription.",
       "verification": "Primary assessment and limitations read November 17, 2026."
     },
+    "govern-2-source-6": {
+      "title": "CAIS Coalition · The MisAnthropic Statement",
+      "url": "https://misanthropicstatement.com/",
+      "format": "Coalition Statement",
+      "date": "November 18, 2026",
+      "summary": "A coalition spanning AI safety and open-source advocates challenges Anthropic’s safety branding, policy influence and concentration of power ahead of its IPO.",
+      "note": "The signatories’ criticism and allegations are their position, not adjudicated findings or a shared view on every AI policy.",
+      "verification": "Original statement, listed signatories and CAIS launch post read November 19, 2026; source post: https://x.com/CAIS/status/2123069814663160304"
+    },
+    "govern-2-source-7": {
+      "title": "Reuters · US Weighs Chinese-Model Disclosures",
+      "url": "https://www.reuters.com/world/china/trump-administration-weighs-forcing-us-firms-disclose-chinese-ai-use-2026-11-18/",
+      "format": "Reporting · Proposed Policy",
+      "date": "November 18, 2026",
+      "summary": "Reuters reports Treasury and White House discussions about requiring companies to disclose Chinese AI use on their websites to discourage reliance on those models.",
+      "note": "Based on three sources; the report does not establish an adopted rule, a timetable or a decision to proceed.",
+      "verification": "Original Reuters report by Alexandra Alper read November 19, 2026; replaces the relay at https://x.com/MTSlive/status/2123051208067928066"
+    },
     "govern-3-source-1": {
       "title": "Claude: How Misuse Self-Assessment Works",
       "url": "https://safeguards.anthropic.com/2026/self-assessment/",
@@ -911,13 +956,13 @@ window.NOVEMBER_ROUNDTABLE = {
       "cases": [
         {
           "id": "build-1",
-          "overview": "Matt Huang’s swarm-rider thesis and a firsthand AI-native company account ask how much work one person can direct. Skyfall’s Steve supplies a concrete test: the company says agents now operate three acquired digital businesses.",
+          "overview": "Matt Huang’s swarm-rider thesis asks how much work one person can direct. Architect Labs says agent swarms designed and verified its Frostbite CPU; Skyfall says Steve operates three acquired digital businesses. The scope now reaches from chip design to running companies.",
           "focusLabel": "Swarm Riders",
-          "label": "Swarm Riders & Steve’s AI Company",
+          "label": "Swarm Riders, Frostbite & Steve",
           "type": "Sources & Discussion",
-          "date": "November 2026 · Notes prepared Nov 16",
+          "date": "November 2026 · Notes updated Nov 19",
           "title": "Agent Swarms Meet the Balance Sheet",
-          "body": "Matt Huang’s swarm-rider thesis and a firsthand AI-native company account ask how much work one person can direct. Skyfall’s Steve supplies a concrete test: the company says agents now operate three acquired digital businesses.",
+          "body": "Matt Huang’s swarm-rider thesis asks how much work one person can direct. Architect Labs reports using agent swarms to co-design Frostbite’s instruction set and chip architecture, verify the design, and produce its final chip layout. Skyfall says Steve operates three acquired digital businesses. A founder’s AI-pilled company account and Sequoia’s services thesis add context for organizing that work and turning it into a business.",
           "questions": [
             "When one person can direct a swarm of agents, what kind of company becomes worth building?",
             "What would distinguish a durable business from an impressive automation demo?",
@@ -929,18 +974,19 @@ window.NOVEMBER_ROUNDTABLE = {
             "Pick one paying customer, a bounded workflow and a human who remains accountable."
           ],
           "discussionPoints": [
+            "Frostbite brings swarms into chip design. Architect Labs reports work spanning architecture, verification and optimization; the announcement’s performance claims are company-reported.",
             "Skyfall says Steve operates three acquired businesses; its autonomy and performance claims are company-reported.",
             "The owner still sets direction and business-critical decisions. More automated work does not erase responsibility.",
-            "Sequoia’s earlier services thesis supplies context: sell a completed outcome, not just a tool. Naval brings the question back to ambition and building difficult things."
+            "The AI-pilled company account explores organizing work around agents. Sequoia’s earlier services thesis supplies context: sell a completed outcome, not just a tool."
           ],
           "evidence": [
             "build-1-source-1",
-            "build-1-source-2",
+            "build-1-source-6",
             "build-1-source-3",
-            "build-1-source-4",
-            "build-1-source-5"
+            "build-1-source-2",
+            "build-1-source-4"
           ],
-          "caveat": "Steve’s results are not independently audited. Huang, Naval and the company-building article offer perspectives; Sequoia’s March essay is background for the November examples.",
+          "caveat": "Frostbite and Steve’s results are company-reported. Huang and the company-building article offer perspectives; Sequoia’s March essay is background for the November examples.",
           "preview": {
             "src": "previews/build-1.webp",
             "source": "build-1-source-4",
@@ -951,36 +997,37 @@ window.NOVEMBER_ROUNDTABLE = {
         },
         {
           "id": "build-2",
-          "overview": "Schaeffler reports humanoids assembling robot components, while NVIDIA and DeepMind show faster learning and factory trials. Miami-Dade’s proposed delivery-robot rules bring physical AI into the streets around us.",
+          "overview": "GR00T 2 transfers skills from human video and other robots, including zero-shot attempts at new tasks. Xiaomi demonstrates sustained factory work, while DeepMind expands what one model can do across tasks and robot types. AI is reducing how much robots need to be taught for each new job.",
           "focusLabel": "Physical AI",
-          "label": "GR00T 2, Humanoid Factories & Miami’s Robots",
+          "label": "GR00T 2, Xiaomi & Gemini Robotics",
           "type": "Sources & Discussion",
-          "date": "November 2026 · Notes prepared Nov 16",
-          "title": "Robots Take on Real Work",
-          "body": "Schaeffler reports humanoids assembling robot components, while NVIDIA and DeepMind show faster learning and factory trials. Miami-Dade’s proposed delivery-robot rules bring physical AI into the streets around us.",
+          "date": "November 2026 · Notes updated Nov 19",
+          "title": "From Task-Specific Training to General Robot Skills",
+          "body": "Robot foundation models are making skills more transferable. GR00T 2 learns from human video and other robots; its zero-shot tests tackle tasks without task-specific training on the target robot. A few demonstrations improve performance further. Xiaomi’s factory example shows sustained work and anomaly recovery, while Gemini Robotics 2.5 extends a shared model across tasks and robot bodies. The opportunity is to make each new job easier to teach and deploy.",
           "questions": [
-            "Are robots becoming useful beyond controlled demos, and where would Miami feel that first?",
-            "What evidence would make a robot deployment more convincing than its highlight reel?",
-            "What is one useful robot service for Miami’s streets, ports or workshops?"
+            "What becomes possible when robots can generalize to work they haven’t been explicitly trained to do?",
+            "Where is zero-shot performance useful today, and where do a few demonstrations or human oversight still make the difference?",
+            "Which useful robot service becomes viable if teaching it a new task gets dramatically cheaper?"
           ],
           "nudges": [
-            "Compare factory work, delivery, maintenance and construction.",
-            "Ask about interventions, uptime, failure recovery, cost and safety in ordinary conditions.",
-            "Choose the task first, then the form factor, operating boundary and payment method."
+            "Consider shared models, learning from human video, and skills that transfer between robot bodies.",
+            "Compare unfamiliar tasks, recovery from mistakes, interventions and safety in ordinary conditions.",
+            "Choose a task, the demonstrations it would need, and a measurable outcome for the customer."
           ],
           "discussionPoints": [
-            "Schaeffler describes six humanoids across five stations assembling components for other robots.",
-            "NVIDIA reports 95% average success across its 50-task adaptation evaluation after five demonstrations per task. That is a specific benchmark, not general robot reliability.",
-            "Miami-Dade’s proposal adds permits and operating rules for delivery devices. Treat it as a proposal until the final vote is confirmed."
+            "NVIDIA reports 40% zero-shot success across 50 tasks unseen on the target robot, rising to 95% after five demonstrations per task and fine-tuning. Prior training on human video and other robots still matters.",
+            "Xiaomi reports an eight-hour factory sorting task with autonomous anomaly correction. This illustrates applied capability; the post does not say it was learned zero-shot.",
+            "DeepMind evaluates Gemini Robotics 2.5 across 200 tasks and multiple robot types. Its Apollo factory proof of concept connects broader learned skills with production work.",
+            "Schaeffler’s humanoid assembly example adds another factory use case. The key questions are what transfers between jobs and how much new training, oversight and integration each deployment needs."
           ],
           "evidence": [
-            "build-2-source-1",
             "build-2-source-2",
-            "build-2-source-3",
             "build-2-source-4",
-            "build-2-source-5"
+            "build-2-source-5",
+            "build-2-source-1",
+            "build-2-source-3"
           ],
-          "caveat": "Factory results and robotics benchmarks are reported by their developers. GR00T 2 code is announced for December; the Miami-Dade vote is scheduled for November 17 and was still pending when this draft was checked.",
+          "caveat": "Benchmarks and factory results are developer-reported. Zero-shot transfer, adaptation from demonstrations, and sustained deployment are different measures of progress. GR00T 2 code is announced for December; the policy document remains background reading, with final adoption unverified.",
           "preview": {
             "src": "previews/build-2.webp",
             "source": "build-2-source-5",
@@ -991,15 +1038,15 @@ window.NOVEMBER_ROUNDTABLE = {
         },
         {
           "id": "build-3",
-          "overview": "DeepMind’s Signal verification and Cloudflare’s open audit tooling put AI to work checking software. Anthropic’s vulnerability research and hardware prototypes sharpen the question of what builders still need to understand and verify themselves.",
+          "overview": "DeepMind checks Signal’s security properties, Cloudflare publishes an agent audit workflow, and OpenVersions connects research claims to papers, code and data. As AI makes more work possible, it also gives builders new ways to inspect the evidence behind it.",
           "focusLabel": "Security Craft",
-          "label": "Signal Verification & the New Security Craft",
+          "label": "Signal, Cloudflare & OpenVersions",
           "type": "Sources & Discussion",
-          "date": "November 2026 · Notes prepared Nov 16",
-          "title": "AI Checks the Software It Helps Create",
-          "body": "DeepMind’s Signal verification and Cloudflare’s open audit tooling put AI to work checking software. Anthropic’s vulnerability research and hardware prototypes sharpen the question of what builders still need to understand and verify themselves.",
+          "date": "November 2026 · Updated Nov 19",
+          "title": "From More Output to Checkable Evidence",
+          "body": "DeepMind’s Signal work uses machine-checked proofs; Cloudflare’s agent workflow investigates security findings. OpenVersions takes a complementary approach to research: publish a paper with its code and data, check its claims against that evidence, and let others inspect or extend a specific version. These are different forms of verification, but all make the reasoning behind a result easier to examine.",
           "questions": [
-            "As AI writes more code and finds more bugs, what craft should a builder still own?",
+            "As AI produces more code and research, what would make its results easier to trust and build on?",
             "Could wallets and Lightning software become the next proving ground for AI-assisted verification?",
             "What would you verify or build before the next roundtable?"
           ],
@@ -1011,16 +1058,17 @@ window.NOVEMBER_ROUNDTABLE = {
           "discussionPoints": [
             "DeepMind reports machine-checked proofs of selected security properties in Signal’s core implementation, with experts reviewing the specifications.",
             "Cloudflare’s published audit workflow distinguishes confirmed findings from candidates that still need validation.",
+            "OpenVersions reviews claims when a new version is published and links each status to an explanation and sources. Papers, code and data can be searched and forked together; an evidence-support check is not the same as a mathematical proof or an independently reproduced result.",
             "Anthropic shows both working electronics prototypes and vulnerability research. More capability raises the value of clear boundaries and independent checks."
           ],
           "evidence": [
             "build-3-source-1",
             "build-3-source-2",
-            "build-3-source-3",
+            "build-3-source-6",
             "build-3-source-4",
             "build-3-source-5"
           ],
-          "caveat": "Formal verification covers the properties and assumptions specified, not the entire Signal app. Hardware prototypes do not establish commercial certification or long-term reliability; Uncle Bob’s post is an opinion about how the craft is changing.",
+          "caveat": "Formal verification covers the properties and assumptions specified, not the entire Signal app. Evidence checks depend on the material supplied. Hardware prototypes do not establish commercial certification or long-term reliability.",
           "preview": {
             "src": "previews/build-3.webp",
             "source": "build-3-source-1",
@@ -1126,32 +1174,35 @@ window.NOVEMBER_ROUNDTABLE = {
         },
         {
           "id": "own-3",
-          "overview": "Click-prediction experiments and HackerTube raise a practical question about who chooses what reaches us. Personal filters and in-person communities offer different ways to reclaim that choice.",
+          "overview": "HackerTube makes a feed personal, and 0xSero sees a market for algorithms you control. Prime Intellect’s Model Factory extends ownership to training and improving your own models. ClickHunt’s attention experiment sharpens the question: whose goals does that intelligence serve?",
           "focusLabel": "Personal Feeds",
-          "label": "HackerTube & Who Chooses Your Feed",
+          "label": "HackerTube, 0xSero & Model Factory",
           "type": "Sources & Discussion",
-          "date": "November 2026 · Notes prepared Nov 16",
-          "title": "A Feed You Can Shape Yourself",
-          "body": "Click-prediction experiments and HackerTube raise a practical question about who chooses what reaches us. Personal filters and in-person communities offer different ways to reclaim that choice.",
+          "date": "November 2026 · Notes updated Nov 19",
+          "title": "Own the Algorithm and the Model Behind It",
+          "body": "HackerTube shows what a personally chosen feed can look like. 0xSero argues there is a market for personal recommendation algorithms. Prime Intellect’s Model Factory gives teams a way to train, deploy and improve their own models using production feedback, on hosted or dedicated infrastructure, including their own GPUs. These are different layers of the sovereign stack: choosing what reaches you, defining what the model optimizes for, and retaining control over how it improves.",
           "questions": [
-            "If a model gets better at predicting your next click, what would make you trust it to decide what deserves your attention?",
+            "What changes when you can own both your personal algorithms and the models behind them?",
             "What would your own recommendation system optimize for, and how would you know it was expanding your taste rather than narrowing it?",
             "What could Builder Miami create together: a member-curated feed, a personal filter anyone can run, or an offline ritual that makes discovery better?"
           ],
           "nudges": [
-            "Does clickable mean valuable?",
+            "Who chooses the data, the goals and what counts as improvement?",
             "How would you invite surprise?",
             "What belongs only in the room?"
           ],
           "discussionPoints": [
+            "Model Factory connects training, inference and feedback from production. It gives teams more control over model development; a managed cloud deployment still has different infrastructure dependencies from a stack on hardware they control.",
             "ClickHunt's organizer reports that Claude outperforms most participants at predicting preferred video packaging; the study is ongoing and does not establish what people find valuable.",
             "Karpathy describes HackerTube as 6,454 videos drawn from recommended links in Hacker News comments, with browser-local preferences and an export others can build on.",
             "Google has announced new controls for K-12 student accounts; the reported loss of Search for schools rejecting AI concerns an upcoming rollout, not a cutoff already completed.",
             "0xSero's personal-algorithm opportunity and Autism Capital's case for in-person groups are proposals about how to organize attention, not measured outcomes."
           ],
+          "overviewSourceCount": 4,
           "evidence": [
             "own-3-source-3",
             "own-3-source-2",
+            "own-3-source-6",
             "own-3-source-1",
             "own-3-source-4",
             "own-3-source-5"
@@ -1366,36 +1417,36 @@ window.NOVEMBER_ROUNDTABLE = {
         },
         {
           "id": "govern-2",
-          "overview": "After the midterms, Ansari calls for an AI pause and a superintelligence ban. The Sanders–Casar proposal offers one route; Sacks warns about permission-based development. Data-center ballots bring the debate home, where local costs and control of compute meet.",
+          "overview": "Post-election calls for AI pauses now sit alongside a reported US plan to make companies disclose Chinese-model use. Meanwhile, the CAIS-backed MisAnthropic Statement challenges a frontier lab’s safety branding and influence. Who gets to define safety, acceptable models and the rules for builders?",
           "focusLabel": "Political Backlash",
           "label": "Elections, Data Centers & Intelligence by Permission",
           "type": "Sources & Discussion",
-          "date": "November 2026 · Updated Nov 17",
-          "title": "From Election Promises to Rules for Builders",
-          "body": "Post-election calls to pause advanced AI put the existing Sanders–Casar proposal back in the discussion. It would create a federal AI agency, prohibit specified development and deployment, and impose severe penalties. Sacks warns about permission-based innovation, while local data-center measures raise questions about land, resources and consent. METR’s research provides context for the safety concerns behind the debate.",
+          "date": "November 2026 · Updated Nov 19",
+          "title": "Who Sets the Rules for Open Intelligence?",
+          "body": "Calls to pause advanced AI and the Sanders–Casar bill raise questions about permission to build. Reuters now reports US discussions about requiring public disclosure of Chinese-model use. From another direction, the CAIS-backed MisAnthropic Statement brings together critics of Anthropic’s safety branding and concentration of power. These are different pressures on the same ecosystem: public protection, national security, competition and who gets to define the rules. Local data-center votes add questions of resources and community consent.",
           "questions": [
             "When does protecting the public become requiring permission to innovate?",
             "Which rules address a measurable harm, and which could make AI a market only large incumbents can afford to enter?",
             "What would a workable alternative to blanket permission look like for a small AI lab or a community hosting its own compute?"
           ],
           "nudges": [
-            "Separate national AI restrictions from local concerns about electricity, water and land.",
+            "Compare development restrictions, country-of-origin disclosures and local concerns about electricity, water and land.",
             "Who sets the threshold, pays for compliance and hears an appeal?",
             "Consider proportionate evaluations, transparent criteria and concrete benefits for the local community."
           ],
           "discussionPoints": [
             "On November 4, Rep. Yassamin Ansari urged a pause on advanced AI and a ban on superintelligence. This is her stated agenda, not an enacted law or a settled position for every Democrat.",
             "Sanders and Casar introduced their bill on September 23. Its proposed maximum 20-year sentence concerns violating or circumventing the bill’s pauses and prohibitions, not ordinary use of any open model.",
-            "Sacks’s All-In discussion is a political interpretation of where oversight could lead. Compare it with the proposal itself.",
-            "Data-center measures cover different questions, including zoning, power caps and voter approval. The linked tracker marks its results unofficial; a single national tally can conceal those differences.",
-            "METR estimates roughly 2x acceleration in Anthropic’s capability progress on well-specified tasks, with high uncertainty and important evidence redacted. It informs the risk debate without settling the policy response."
+            "Reuters reports that Treasury and the White House science office discussed requiring companies to disclose Chinese AI use on their websites. Its sources describe a way to discourage adoption; whether it will become a formal rule is unresolved.",
+            "The MisAnthropic Statement argues that Anthropic’s safety reputation serves its commercial and political ambitions. Its listed signatories include Thomas Wolf, George Hotz and Max Tegmark. Their shared criticism does not mean they agree on open models, acceleration or regulation more broadly.",
+            "Data-center measures cover different questions, including zoning, power caps and voter approval. The linked tracker marks its results unofficial; a single national tally can conceal those differences."
           ],
           "evidence": [
             "govern-2-source-1",
+            "govern-2-source-7",
+            "govern-2-source-6",
             "govern-2-source-2",
-            "govern-2-source-3",
-            "govern-2-source-4",
-            "govern-2-source-5"
+            "govern-2-source-4"
           ],
           "caveat": "",
           "preview": {
@@ -1511,13 +1562,13 @@ window.NOVEMBER_ROUNDTABLE = {
         },
         {
           "id": "connect-2",
-          "overview": "Square gives eligible merchants Lightning checkout with settlement in dollars or bitcoin. Its terms list 0% processing through December 31, 2026, then 1%. Miami-Dade’s announced tax-payment option and Payjoin add two practical questions: where can you spend, and how privately?",
+          "overview": "Square gives eligible merchants Lightning checkout with settlement in dollars or bitcoin. Its terms list 0% processing through December 31, 2026, then 1%. River lets customers send bitcoin using cash without spending their existing stack, while Payjoin adds payment privacy.",
           "focusLabel": "Bitcoin Checkout",
           "label": "Square & Bitcoin at the Checkout",
           "type": "Sources & Discussion",
-          "date": "November 2026 · Notes updated Nov 17",
+          "date": "November 2026 · Notes updated Nov 19",
           "title": "Bitcoin Payments on a Familiar Checkout",
-          "body": "Square brings Bitcoin payments into checkout hardware merchants already use, with eligible sellers choosing dollar or bitcoin settlement. Its published terms list 0% processing through December 31, 2026, then 1%. That makes acceptance easier to try. Miami-Dade’s announced tax-payment option and Bull Bitcoin’s Payjoin integration broaden the discussion from availability to repeat use and payment privacy.",
+          "body": "Square brings Bitcoin payments into checkout hardware merchants already use, with eligible sellers choosing dollar or bitcoin settlement. Its published terms list 0% processing through December 31, 2026, then 1%. River addresses the customer side: fund a bitcoin payment with cash while keeping existing bitcoin savings intact. Together with Bull Bitcoin’s Payjoin integration, these tools bring the discussion from acceptance to repeat use and payment privacy.",
           "questions": [
             "Square has brought Bitcoin to the checkout. What would turn a new payment option into a regular habit?",
             "What would persuade merchants to keep bitcoin, and customers to spend it, once the promotional fees end?",
@@ -1530,7 +1581,7 @@ window.NOVEMBER_ROUNDTABLE = {
           ],
           "discussionPoints": [
             "Square’s published terms offer BTC or USD settlement, 0% processing through December 31, 2026, then 1%. Eligibility, a New York exclusion, a $600 transaction cap and a $20,000 daily limit still apply.",
-            "WLRN reports a November 19 start for Miami-Dade's option; the county receives dollars and does not hold the bitcoin.",
+            "River buys and sends bitcoin in one step using a cash balance or linked bank account. Existing bitcoin holdings stay untouched; standard fees and account limits apply. Could this make paying with bitcoin a habit without asking people to spend their savings?",
             "Bull Bitcoin's Payjoin default applies to on-chain buys and sells through BULL Wallet's embedded exchange integration; the DEF/Ipsos privacy survey is advocacy-sponsored.",
             "The FBI alert urges specified service providers and node operators to block hack-linked transactions; this request is not itself a new blanket legal prohibition."
           ],
@@ -1632,6 +1683,8 @@ window.NOVEMBER_ROUNDTABLE = {
   ],
   "additionalReading": {
     "build": [
+      "build-1-source-5",
+      "build-3-source-3",
       "reading-a037",
       "reading-b132",
       "reading-r05"
@@ -1650,6 +1703,8 @@ window.NOVEMBER_ROUNDTABLE = {
       "reading-a074"
     ],
     "power": [
+      "govern-2-source-3",
+      "govern-2-source-5",
       "reading-n10",
       "reading-b162",
       "reading-a099",

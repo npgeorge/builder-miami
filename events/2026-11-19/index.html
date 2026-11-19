@@ -27,7 +27,7 @@
 <link rel="canonical" href="https://buildermiami.ai/events/2026-11-19/">
 <link rel="stylesheet" href="/deco-details.css?v=6">
 <link rel="stylesheet" href="/discussion-deco.css?v=3">
-<link rel="stylesheet" href="november.css?v=7">
+<link rel="stylesheet" href="november.css?v=8">
 <link rel="stylesheet" href="/night-mode.css?v=4">
 <link rel="stylesheet" href="/discussion-night.css?v=1">
 </head>
@@ -37,7 +37,7 @@
 <footer class="global-footer"><a class="archive-home-link" href="/">← All Builder Miami roundtables</a><span class="footer-keys"><kbd>M</kbd> Map &nbsp; <kbd>1–5</kbd> Topics &nbsp; <kbd>6</kbd> Showcase &nbsp; <kbd>7</kbd> Links &nbsp; <button data-action="help" aria-label="Keyboard shortcuts">? Shortcuts</button></span><button data-action="closing" class="small-button">Close the circle ↗</button></footer>
 <dialog id="dialog" class="dialog" aria-labelledby="dialog-title"><div class="dialog-head"><h2 id="dialog-title"></h2><button class="close" data-action="close-dialog" aria-label="Close dialog">×</button></div><div class="dialog-body" id="dialog-body"></div></dialog>
 <div class="toast hidden" role="status" id="toast"></div>
-<script src="content.js?v=9"></script>
+<script src="content.js?v=13"></script>
 <script>
 'use strict';
 const {sources,topics,eventInfo,showcaseSourceIds,showcaseGroups,additionalReading}=window.NOVEMBER_ROUNDTABLE;
@@ -139,13 +139,13 @@ function renderTopic(){
   if(focusedCaseId){renderFocusedTopic();return;}
   app.innerHTML=`${sectionNav()}<section class="topic-shell topic-overview" aria-labelledby="topic-title">
     ${topicHeading(t)}
-    <div class="topic-overview-grid">${t.cases.map((c,i)=>`<article class="overview-card" aria-labelledby="card-${esc(c.id)}">${frameCorners}
+    <div class="topic-overview-grid">${t.cases.map((c,i)=>`<article class="overview-card" style="--overview-source-count:${c.overviewSourceCount||3}" aria-labelledby="card-${esc(c.id)}">${frameCorners}
       <div class="overview-card-top"><span class="overview-numeral" aria-hidden="true">${['I','II','III'][i]}</span>${sourcePreview(c)}</div>
       <h2 id="card-${esc(c.id)}">${esc(c.label)}</h2>
       <p class="overview-summary">${esc(c.overview||c.body)}</p>
       <div class="overview-discussion"><p class="overview-question">${esc(c.questions[0])}</p>${casePrinciple(c)}</div>
       <div class="overview-card-bottom">
-        ${sourceLinks(c,c.evidence.slice(0,3),`Top three sources for ${c.label}`)}
+        ${sourceLinks(c,c.evidence.slice(0,c.overviewSourceCount||3),`Featured sources for ${c.label}`)}
         <button class="overview-focus" data-action="case" data-id="${esc(c.id)}" aria-label="Focus ${esc(c.focusLabel||c.label)}"><span>Focus ${esc(c.focusLabel||c.label)}</span><span aria-hidden="true">↗</span></button>
       </div>
     </article>`).join('')}</div>
