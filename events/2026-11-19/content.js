@@ -365,9 +365,9 @@ window.NOVEMBER_ROUNDTABLE = {
       "url": "https://squareup.com/help/us/en/article/8622-accept-and-manage-bitcoin-payments",
       "format": "Product documentation",
       "date": "November 2026 reading list",
-      "summary": "Square explains merchant eligibility, Lightning checkout, BTC or USD settlement, and 0% processing through December 31, 2026, followed by 1%.",
-      "note": "The size of Square's merchant network is not a verified count of eligible or active Bitcoin merchants.",
-      "verification": "Re-read November 17, 2026; confirms the fee schedule, settlement choices, eligibility restrictions, transaction limits and device-specific NFC support."
+      "summary": "Square explains merchant eligibility, Lightning checkout, BTC or USD settlement, processing fees and payment limits.",
+      "note": "The size of Square’s merchant network is not a verified count of active Bitcoin merchants. Its help article lists zero fees through December 31, 2026, while Block’s November report announces an extension through December 31, 2027.",
+      "verification": "Re-read November 19, 2026; settlement choices, eligibility and transaction limits confirmed. Fee dates differ between this help article and Block’s new payments report."
     },
     "connect-2-source-2": {
       "title": "River: Send Bitcoin Using Cash",
@@ -939,6 +939,15 @@ window.NOVEMBER_ROUNDTABLE = {
       "summary": "A currency-agnostic approach to clearing obligations before settlement, offering a comparison point for where Bitcoin payments could fit.",
       "date": "October–November 2026 reading list",
       "verification": "Original source reviewed November 17, 2026; selected from the supplied link corpus."
+    },
+    "connect-2-source-6": {
+      "title": "Block: The State of Bitcoin Payments",
+      "url": "https://block.xyz/bitcoin/payments-report",
+      "format": "Research report",
+      "date": "November 2026",
+      "summary": "Block analyzes everyday bitcoin spending through Square, including purchase sizes, repeat payments, merchant categories and use of external wallets.",
+      "note": "Square transaction data covers November 1, 2025 through October 15, 2026 and completed payments greater than $1. Repeat-payment analysis is limited to identifiable Cash App users; these findings do not describe all Bitcoin payments.",
+      "verification": "Read the official report page November 19, 2026, including data scope and methodology notes. The page announces zero processing fees through December 31, 2027, while Square’s help article still lists December 31, 2026."
     }
   },
   "topics": [
@@ -1562,13 +1571,13 @@ window.NOVEMBER_ROUNDTABLE = {
         },
         {
           "id": "connect-2",
-          "overview": "Square gives eligible merchants Lightning checkout with settlement in dollars or bitcoin. Its terms list 0% processing through December 31, 2026, then 1%. River lets customers send bitcoin using cash without spending their existing stack, while Payjoin adds payment privacy.",
+          "overview": "Square gives eligible merchants Lightning checkout with settlement in dollars or bitcoin. Block’s report adds evidence of everyday spending on Square. River lets customers fund bitcoin payments with cash, while Payjoin adds payment privacy.",
           "focusLabel": "Bitcoin Checkout",
           "label": "Square & Bitcoin at the Checkout",
           "type": "Sources & Discussion",
           "date": "November 2026 · Notes updated Nov 19",
           "title": "Bitcoin Payments on a Familiar Checkout",
-          "body": "Square brings Bitcoin payments into checkout hardware merchants already use, with eligible sellers choosing dollar or bitcoin settlement. Its published terms list 0% processing through December 31, 2026, then 1%. River addresses the customer side: fund a bitcoin payment with cash while keeping existing bitcoin savings intact. Together with Bull Bitcoin’s Payjoin integration, these tools bring the discussion from acceptance to repeat use and payment privacy.",
+          "body": "Square brings Bitcoin payments into checkout hardware merchants already use, with eligible sellers choosing dollar or bitcoin settlement. Block’s report examines how customers actually use it: small purchases, repeat visits and payments from different wallets. River addresses the customer side: fund a bitcoin payment with cash while keeping existing bitcoin savings intact. Together with Bull Bitcoin’s Payjoin integration, these tools bring the discussion from acceptance to repeat use and payment privacy.",
           "questions": [
             "Square has brought Bitcoin to the checkout. What would turn a new payment option into a regular habit?",
             "What would persuade merchants to keep bitcoin, and customers to spend it, once the promotional fees end?",
@@ -1580,13 +1589,15 @@ window.NOVEMBER_ROUNDTABLE = {
             "Can payment privacy improve without adding work at checkout?"
           ],
           "discussionPoints": [
-            "Square’s published terms offer BTC or USD settlement, 0% processing through December 31, 2026, then 1%. Eligibility, a New York exclusion, a $600 transaction cap and a $20,000 daily limit still apply.",
+            "Square offers BTC or USD settlement. Block’s November report announces zero processing fees through December 31, 2027, while Square’s help article still lists December 31, 2026 followed by 1% as of November 19. The help article also lists eligibility restrictions, a New York exclusion, a $600 transaction cap and a $20,000 daily limit.",
+            "Block reports a median bitcoin payment of about $13 and 72% of payments at food and drink businesses. Its analysis covers completed Square payments greater than $1 from November 1, 2025 through October 15, 2026; repeat-payment findings cover identifiable Cash App users. What would make these early habits spread?",
             "River buys and sends bitcoin in one step using a cash balance or linked bank account. Existing bitcoin holdings stay untouched; standard fees and account limits apply. Could this make paying with bitcoin a habit without asking people to spend their savings?",
             "Bull Bitcoin's Payjoin default applies to on-chain buys and sells through BULL Wallet's embedded exchange integration; the DEF/Ipsos privacy survey is advocacy-sponsored.",
             "The FBI alert urges specified service providers and node operators to block hack-linked transactions; this request is not itself a new blanket legal prohibition."
           ],
           "evidence": [
             "connect-2-source-1",
+            "connect-2-source-6",
             "connect-2-source-2",
             "connect-2-source-3",
             "connect-2-source-4",
@@ -1599,7 +1610,8 @@ window.NOVEMBER_ROUNDTABLE = {
             "caption": "Square · Bitcoin Payments",
             "alt": "Square’s official Bitcoin payments artwork with the Square logo and a retail storefront",
             "fit": "contain"
-          }
+          },
+          "overviewSourceCount": 4
         },
         {
           "id": "connect-3",
