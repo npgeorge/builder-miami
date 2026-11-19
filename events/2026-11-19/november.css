@@ -1,4 +1,4 @@
-.deco-discussion .hero-copy .intro,.deco-discussion .event-sponsor { width:100%; max-width:34rem; }
+.deco-discussion .hero-copy .intro,.deco-discussion .event-sponsor,.deco-discussion .home-buttons { width:100%; max-width:34rem; }
 .deco-discussion .hero-copy .intro { margin:12px 0 14px; }
 .deco-discussion .event-sponsor { display:flex; align-items:center; justify-content:space-between; gap:18px; margin:12px 0 18px; padding:10px 14px; border-block:1px solid var(--faint-brass); background:#fcf7f2; }
 .deco-discussion .sponsor-label { color:var(--muted); font-size:11px; letter-spacing:.12em; text-transform:uppercase; }
@@ -69,3 +69,7 @@
 :root[data-theme="night"] .deco-discussion .home-action--points { --action-bg:#1b292b; --action-border:#3e5751; --action-hover:#233633; }
 html[data-theme] .deco-discussion .home-buttons .home-action { min-height:52px; background:var(--action-bg); border-color:var(--action-border); color:var(--ink); }
 html[data-theme] .deco-discussion .home-buttons .home-action:hover { background:var(--action-hover); border-color:var(--action-border); color:var(--ink); }
+
+.deco-discussion .home-buttons { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-items:stretch; }
+html[data-theme] .deco-discussion .home-buttons .home-action { width:100%; min-width:0; text-align:left; }
+.deco-discussion .home-action .arrow { flex-shrink:0; }
