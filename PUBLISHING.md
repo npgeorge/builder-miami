@@ -14,6 +14,8 @@ GitHub Pages should publish from `main` and `/ (root)`. The repository root is t
 - `index.html`: the Builder Miami homepage and roundtable index.
 - `about/`: the Builder Miami overview and Bitcoin Grove organizer credit.
 - `artwork/`: the artwork library, including full-resolution originals, web previews, and five reusable talk markers.
+- `artwork/library-data.js`: the gallery catalog. An optional `night` edition supplies its own original, preview, and dimensions; the shared theme switches the preview, open link, and download together. Each artwork now has a paired night edition. Day and night crops are stored separately to preserve each silhouette.
+- `artwork/night/`: 21 generated moonlit scenes, talk markers, and transparent ornaments, with the generation prompt set in `prompts.json`. About uses the night pelican and botanical sprig directly, without inversion filters.
 - `events/`: a permanent dated folder for each roundtable.
 - `dist/`: shared artwork and styles, plus a redirect for the original `/dist/` event link.
 - `dist/assets/coast/`: shared base styles and coastal illustrations.

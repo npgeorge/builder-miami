@@ -1,19 +1,86 @@
 (() => {
-  for(const item of window.BUILDER_ART_LIBRARY){
-    const scene=item.category==='Coastal scenes';
-    const figure=document.createElement('figure');
-    const link=document.createElement('a');link.href=item.original;link.target='_blank';link.rel='noopener noreferrer';link.className=scene?'landscape-image':'detail-image';link.setAttribute('aria-label','Open '+item.name+' original');
-    const img=document.createElement('img');img.src=item.preview;img.alt=item.name;img.loading='lazy';
-    if(scene)link.append(img);else{
-      const b=item.bounds,ratio=b.w*b.ratio/b.h,w=Math.min(205,218*ratio),crop=document.createElement('span');
-      crop.className='detail-crop';crop.style.width=w+'px';crop.style.aspectRatio=String(ratio);
-      img.style.width=(100/b.w)+'%';img.style.left=(-100*b.x/b.w)+'%';img.style.top=(-100*b.y/b.h)+'%';
-      crop.append(img);link.append(crop);
+  const root = document.documentElement;
+  const items = window.BUILDER_ART_LIBRARY;
+  const groups = {
+    'Mastheads & portraits': 'featured',
+    'Coastal scenes': 'landscapes',
+    'Talk markers': 'markers',
+    'Details & ornaments': 'details'
+  };
+  const cards = items.map(item => {
+    const wide = ['featured', 'landscapes'].includes(groups[item.category]);
+    const figure = document.createElement('figure');
+    figure.dataset.artId = item.id;
+    const link = document.createElement('a');
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.className = wide ? 'landscape-image' : 'detail-image';
+    const img = document.createElement('img');
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    let crop;
+    if (item.bounds) {
+      crop = document.createElement('span');
+      crop.className = 'detail-crop';
+      crop.append(img);
+      link.append(crop);
+    } else {
+      link.append(img);
+      if (!wide) link.classList.add('vector-image');
     }
-    const caption=document.createElement('figcaption'),labels=document.createElement('div'),heading=document.createElement('h3'),dimensions=document.createElement('span'),download=document.createElement('a');
-    heading.textContent=item.name;dimensions.className='art-dimensions';dimensions.textContent=item.width+' × '+item.height+' · PNG';labels.append(heading,dimensions);
-    download.href=item.original;download.download=item.id+'.png';download.className='art-download';download.textContent='Download ↗︎';caption.append(labels,download);figure.append(link,caption);
-    document.getElementById(scene?'landscapes':item.category==='Talk markers'?'markers':'details').append(figure);
+    const caption = document.createElement('figcaption');
+    const labels = document.createElement('div');
+    const heading = document.createElement('h3');
+    const dimensions = document.createElement('span');
+    const download = document.createElement('a');
+    heading.textContent = item.name;
+    dimensions.className = 'art-dimensions';
+    labels.append(heading, dimensions);
+    download.className = 'art-download';
+    download.textContent = 'Download ↗︎';
+    caption.append(labels, download);
+    figure.append(link, caption);
+    document.getElementById(groups[item.category]).append(figure);
+    return { item, img, crop, link, heading, dimensions, download };
+  });
+
+  function updateEditions() {
+    const night = root.dataset.theme === 'night';
+    cards.forEach(({ item, img, crop, link, heading, dimensions, download }) => {
+      const edition = night && item.night ? item.night : item;
+      const name = edition.name || item.name;
+      const label = item.night ? (night ? 'Night edition' : 'Day edition') : 'Original study';
+      const src = edition.preview || edition.original;
+      const extension = edition.original.split('.').pop().toLowerCase();
+      if (img.getAttribute('src') !== src) img.src = src;
+      heading.textContent = name;
+      img.alt = name + ', ' + label.toLowerCase();
+      if (crop) {
+        // Generated night editions have their own silhouettes and canvas sizes.
+        const b = edition.bounds || item.bounds;
+        const ratio = b.w * b.ratio / b.h;
+        crop.style.width = Math.min(205, 218 * ratio) + 'px';
+        crop.style.aspectRatio = String(ratio);
+        img.style.width = 100 / b.w + '%';
+        img.style.left = -100 * b.x / b.w + '%';
+        img.style.top = -100 * b.y / b.h + '%';
+      } else {
+        img.width = edition.width;
+        img.height = edition.height;
+      }
+      link.href = edition.original;
+      link.setAttribute('aria-label', 'Open ' + name + ', ' + label.toLowerCase());
+      download.href = edition.original;
+      download.download = item.id + (item.night ? (night ? '-night' : '-day') : '') + '.' + extension;
+      download.setAttribute('aria-label', 'Download ' + name + ', ' + label.toLowerCase());
+      dimensions.textContent = extension === 'svg'
+        ? label + ' · SVG vector'
+        : label + ' · ' + edition.width + ' × ' + edition.height + ' · ' + extension.toUpperCase();
+    });
   }
-  document.querySelector('[data-art-count]').textContent=window.BUILDER_ART_LIBRARY.length+' original illustrations preserved at full resolution.';
+
+  updateEditions();
+  // Follow the shared theme, including changes made in another open site tab.
+  new MutationObserver(updateEditions).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
+  document.querySelector('[data-art-count]').textContent = items.length + ' artworks, including ' + items.filter(item => item.night).length + ' paired night editions.';
 })();

@@ -1,4 +1,4 @@
-/* Shared local day/night preview. The published site is unchanged. */
+/* Shared day/night palette and artwork. */
 .site-header .theme-switch { display:inline-flex; }
 .site-header .theme-switch button { width:30px; height:30px; }
 .site-header .theme-switch button[aria-pressed=true] { background:#e9ddd0; }
@@ -36,7 +36,8 @@
 :root[data-theme="night"] .header-tile-divider i:nth-child(11) { opacity:1; }
 :root[data-theme="night"] .keystone-surround .keystone-backdrop { display:block; background:var(--paper) url('assets/florida-keystone-surround-night.png') center top / var(--keystone-texture-size,1200px) auto repeat; filter:brightness(.76) saturate(.85); }
 :root[data-theme="night"] .coastal-footer img { filter:none; mix-blend-mode:lighten; opacity:1; }
-:root[data-theme="night"] .art { filter:grayscale(.75) invert(1) hue-rotate(180deg); mix-blend-mode:screen; opacity:.48; }
+:root[data-theme="night"] .art--night-edition { filter:none; mix-blend-mode:normal; opacity:1; aspect-ratio:var(--night-art-ratio); }
+:root[data-theme="night"] .art--night-edition img { width:var(--night-image-width); left:var(--night-image-left); top:var(--night-image-top); }
 @media(max-width:700px) {
  .site .site-header { display:grid; grid-template-columns:minmax(0,1fr) auto; row-gap:2px; }
  .site .site-header .header-actions { display:contents; }

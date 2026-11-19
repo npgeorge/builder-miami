@@ -1,0 +1,154 @@
+{
+  "tool": "Built-in image_gen",
+  "created": "2026-11-18",
+  "styleReference": "/assets/biscayne-footer-night.png",
+  "assets": [
+    {
+      "id": "south-beach",
+      "target": "/artwork/originals/south-beach.png",
+      "output": "/artwork/night/south-beach.png",
+      "prompt": "Use case: lighting-weather. Asset: a full-resolution night edition of Builder Miami's coastal illustration. Image 1 is the EDIT TARGET; Image 2 is the NIGHT STYLE REFERENCE only. Change the target from daylight to a convincing moonlit Miami night, matching the fine engraved / lithographic detail, restrained warm window lights, muted olive foliage, slate and deep navy blue shadows and warm limestone highlights of reference 2. South Beach: preserve the exact Art Deco beachfront buildings on the left, lifeguard station, palm trees, grasses, shoreline and gentle waves. Preserve the target's 3:2 landscape composition, exact object placement, scale, negative sky space and fine linework. Make the upper sky near-uniform very deep navy #0b0d18 so it joins a website background. Real lighting, soft moonlit reflections, natural warm touches of amber and terracotta; retain delicate detail and readable material surfaces. Quiet, luxurious, not neon, not cartoon, not an inverted negative or X-ray. No text, labels, frame, watermark or extra objects. Return ONE finished landscape illustration, not a comparison.",
+      "generatedFile": "exec-8c3ad387-69d9-4001-ac7b-55e1212ab3de.png"
+    },
+    {
+      "id": "grove-garden",
+      "target": "/artwork/originals/grove-garden.png",
+      "output": "/artwork/night/grove-garden.png",
+      "prompt": "Use case: lighting-weather. Asset: a full-resolution night edition of Builder Miami's coastal illustration. Image 1 is the EDIT TARGET; Image 2 is the NIGHT STYLE REFERENCE only. Change the target from daylight to a convincing moonlit Miami night, matching the fine engraved / lithographic detail, restrained warm window lights, muted olive foliage, slate and deep navy blue shadows and warm limestone highlights of reference 2. Grove Garden: preserve the exact right-side classical garden pavilion, curving balustrade, tropical foliage, bay, boats and distant skyline. Preserve the target's 3:2 landscape composition, exact object placement, scale, negative sky space and fine linework. Make the upper sky near-uniform very deep navy #0b0d18 so it joins a website background. Real lighting, soft moonlit reflections, natural warm touches of amber and terracotta; retain delicate detail and readable material surfaces. Quiet, luxurious, not neon, not cartoon, not an inverted negative or X-ray. No text, labels, frame, watermark or extra objects. Return ONE finished landscape illustration, not a comparison.",
+      "generatedFile": "exec-36aaf244-410e-494e-a9ef-26e839af5367.png"
+    },
+    {
+      "id": "atlantic-loggia",
+      "target": "/artwork/originals/atlantic-loggia.png",
+      "output": "/artwork/night/atlantic-loggia.png",
+      "prompt": "Use case: lighting-weather. Asset: a full-resolution night edition of Builder Miami's coastal illustration. Image 1 is the EDIT TARGET; Image 2 is the NIGHT STYLE REFERENCE only. Change the target from daylight to a convincing moonlit Miami night, matching the fine engraved / lithographic detail, restrained warm window lights, muted olive foliage, slate and deep navy blue shadows and warm limestone highlights of reference 2. Atlantic Loggia: preserve the exact left-side slender Ionic columns and arch, detailed capitals, flowering vines, terrace, balustrade and distant Miami skyline. Replace the existing orange sun with a small pale moon in the same position. Preserve the target's 3:2 landscape composition, exact object placement, scale, negative sky space and fine linework. Make the upper sky near-uniform very deep navy #0b0d18 so it joins a website background. Real lighting, soft moonlit reflections, natural warm touches of amber and terracotta; retain delicate detail and readable material surfaces. Quiet, luxurious, not neon, not cartoon, not an inverted negative or X-ray. No text, labels, frame, watermark or extra objects. Return ONE finished landscape illustration, not a comparison.",
+      "generatedFile": "exec-1977b50f-9420-4f7e-bfe4-703b76401fc1.png"
+    },
+    {
+      "id": "pelican",
+      "target": "/artwork/originals/pelican.png",
+      "output": "/artwork/night/pelican.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the SAME pelican facing right on its rope-wrapped wooden piling; retain its elegant posture, accurate anatomy, feather etching and fine weathered wood grain. Ivory feathers with slate-blue shadows, muted olive-gray body and a restrained warm ochre head/rope accent. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural three-dimensional lighting, not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-d1b4ff55-af82-42a6-b7d9-93ac42811019.png"
+    },
+    {
+      "id": "botanical",
+      "target": "/artwork/originals/botanical.png",
+      "output": "/artwork/night/botanical.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the SAME long curving palm frond and three round sea-grape leaves with two small copper berries, as one botanical sprig. Preserve its sweeping silhouette and fine vein structure. Deep olive foliage, slate-blue shadows, pale moonlit leaf edges. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural three-dimensional lighting, not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-5cb88d69-bb3a-45aa-8804-df652a5a2085.png"
+    },
+    {
+      "id": "architecture",
+      "target": "/artwork/originals/architecture.png",
+      "output": "/artwork/night/architecture.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the SAME long slender Ionic column ornament with its symmetrical scroll capital and acanthus curl at the foot. Preserve the slender proportions and carved details. Moonlit warm limestone, slate-blue shadows and a tiny warm terracotta accent. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural three-dimensional lighting, not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-c63c9ae8-1f3a-4651-8efd-fbecfabe03a1.png"
+    },
+    {
+      "id": "coast",
+      "target": "/artwork/originals/coast.png",
+      "output": "/artwork/night/coast.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the SAME fine horizontal ornament of one sailboat on the left, Miami skyline on the right, and thin rippling waterlines. Replace the little orange sun with a small pale moon. Night-blue buildings with tiny amber lit windows and delicate ivory sails. Keep it a very wide slim ornament, not a full landscape. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural three-dimensional lighting, not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-afb88dc9-feee-4f7e-99a2-6975fb6c8428.png"
+    },
+    {
+      "id": "palm",
+      "target": "/artwork/originals/palm.png",
+      "output": "/artwork/night/palm.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the SAME single splayed fan palm leaf, preserving its irregular graceful silhouette, tiny rust-orange tips, engraved veins and short stem. Natural dark olive and slate-blue shading with delicate pale moonlit edges. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural three-dimensional lighting, not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-b81a7b2e-69d5-4213-b929-ddd52e9a56e7.png"
+    },
+    {
+      "id": "grape",
+      "target": "/artwork/originals/grape.png",
+      "output": "/artwork/night/grape.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the SAME single sea-grape twig with round veined leaves and small berries. Preserve the leaf shapes, count, arrangement and slim branch. Dark olive leaves, slate-blue shade, small muted copper berries and fine moonlit edge highlights. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural three-dimensional lighting, not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-fa52e6fa-ff16-4edd-9e1e-d451a1cf8c29.png"
+    },
+    {
+      "id": "vine",
+      "target": "/artwork/originals/vine.png",
+      "output": "/artwork/night/vine.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the same right-angle curved bougainvillea vine, pointed olive leaves and three warm terracotta-orange blossoms. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural dimensional lighting. NO glow, no halo or ambient haze outside the subject. Not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-9a88edca-022b-44c2-9eaa-fb706cc588d8.png"
+    },
+    {
+      "id": "mangrove",
+      "target": "/artwork/originals/mangrove.png",
+      "output": "/artwork/night/mangrove.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the same small four-leaf mangrove sapling with gracefully separated exposed roots above the little waterline, muted olive leaves and one copper-orange shoot. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural dimensional lighting. NO glow, no halo or ambient haze outside the subject. Not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-f89db425-06b5-42a9-a147-47fbb05306f4.png"
+    },
+    {
+      "id": "shell",
+      "target": "/artwork/originals/shell.png",
+      "output": "/artwork/night/shell.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the same intricately etched spiral conch shell, warm ivory ridges, blue-gray shadows and a tiny copper tone near its inner spiral. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural dimensional lighting. NO glow, no halo or ambient haze outside the subject. Not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-5c00c740-d740-4ff0-8bc5-a7edd360755c.png"
+    },
+    {
+      "id": "loggia",
+      "target": "/artwork/originals/loggia.png",
+      "output": "/artwork/night/loggia.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the same slender classical column on the RIGHT with its quarter arch extending LEFT, retaining the fine acanthus capital, moldings and slender proportions, softly moonlit limestone and a restrained copper inlay. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural dimensional lighting. NO glow, no halo or ambient haze outside the subject. Not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-bed5f49e-3c86-4d13-8406-cf0f5dc42cc3.png"
+    },
+    {
+      "id": "deco",
+      "target": "/artwork/originals/deco.png",
+      "output": "/artwork/night/deco.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the same symmetrical Art Deco stepped horizon crest with slender rays; reinterpret its small central half sun as a softly moonlit ivory lunar half-disc, muted bronze edges and slate-blue carved shadows. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural dimensional lighting. NO glow, no halo or ambient haze outside the subject. Not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-287dfc02-ba5d-45ee-94fd-271e07d91fc1.png"
+    },
+    {
+      "id": "compass",
+      "target": "/artwork/originals/compass.png",
+      "output": "/artwork/night/compass.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the same little sailboat inside the partial curving compass scale, ivory sails, dark olive hull, copper pennant and compass pointer. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural dimensional lighting. NO glow, no halo or ambient haze outside the subject. Not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-f0834280-9577-42b0-8f5a-0ad99d0d0682.png"
+    },
+    {
+      "id": "wave",
+      "target": "/artwork/originals/wave.png",
+      "output": "/artwork/night/wave.png",
+      "prompt": "Use case: lighting-weather and background-extraction. Asset: one refined transparent night-mode ornamental illustration for Builder Miami. Image 1 is the EDIT TARGET; image 2 is a color/lighting/style reference ONLY, do not import its scenery. Recreate the same long narrow engraved ocean-wave divider with three small seabirds, delicate slate-blue swells with ivory moonlit ridges, replace the small orange sun with a pale warm ivory moon. Match the reference's luxurious fine engraved lithographic detail and convincing natural moonlit material shading. Preserve the target's exact subject, orientation, proportions, intricate lines and composition, with comfortable margins. Replace the white paper with TRUE TRANSPARENCY. The subject must be fully colored and solid, not hollow or translucent. It will sit on near-black navy #0b0d18; give enough restrained ivory/olive contrast to read there, with deep blue shaded areas and extremely subtle warm accents. Natural dimensional lighting. NO glow, no halo or ambient haze outside the subject. Not color inversion, not X-ray, not bright neon, not a cartoon, not monochrome white line art. No extra scenery, clouds, stars, frames, labels, lettering, watermarks or ground plate. ONE isolated original ornament, not a contact sheet.",
+      "generatedFile": "exec-ec033367-5a7e-46e0-a82a-3e8e78680932.png"
+    },
+    {
+      "id": "01-acanthus-curl",
+      "target": "/artwork/originals/01-acanthus-curl.png",
+      "output": "/artwork/night/01-acanthus-curl.png",
+      "prompt": "Use case: lighting-weather. Asset: one night-mode talk marker for Builder Miami's artwork library. Image 1 is the EDIT TARGET, a transparent daytime engraving; image 2 is a color, lighting and texture reference ONLY, do not import its scenery. Recreate the same elegant curling acanthus leaf flourish, softly moonlit olive foliage with slate-blue shaded grooves and tiny terracotta tips. Preserve the target's exact silhouette, orientation, elegant proportions, intricate etched lines and composition. Keep a TRUE TRANSPARENT background and comfortable margins around the entire subject. Render the object itself solid with natural soft moonlight, delicate ivory highlights and deep blue shadows so it reads beautifully against near-black navy #0b0d18. Sophisticated fine lithographic detail, small-scale ornamental design, restrained natural materials. No glow, halo, extra backdrop, labels or text. Not a negative or X-ray, not neon, not a cartoon or bulky sculptural redesign. ONE original marker, not a contact sheet.",
+      "generatedFile": "exec-0372f8fb-1569-4b5e-a218-cae93a8f14af.png"
+    },
+    {
+      "id": "02-palm-and-sun",
+      "target": "/artwork/originals/02-palm-and-sun.png",
+      "output": "/artwork/night/02-palm-and-sun.png",
+      "prompt": "Use case: lighting-weather. Asset: one night-mode talk marker for Builder Miami's artwork library. Image 1 is the EDIT TARGET, a transparent daytime engraving; image 2 is a color, lighting and texture reference ONLY, do not import its scenery. Recreate the same diagonally rising fan palm frond and small celestial disc, reinterpret the sun as an ivory full moon, olive and blue-gray leaves with a tiny copper tip. Preserve the target's exact silhouette, orientation, elegant proportions, intricate etched lines and composition. Keep a TRUE TRANSPARENT background and comfortable margins around the entire subject. Render the object itself solid with natural soft moonlight, delicate ivory highlights and deep blue shadows so it reads beautifully against near-black navy #0b0d18. Sophisticated fine lithographic detail, small-scale ornamental design, restrained natural materials. No glow, halo, extra backdrop, labels or text. Not a negative or X-ray, not neon, not a cartoon or bulky sculptural redesign. ONE original marker, not a contact sheet.",
+      "generatedFile": "exec-a38ab073-dc91-462a-a3c1-95cc93d0181b.png"
+    },
+    {
+      "id": "03-ionic-palmette",
+      "target": "/artwork/originals/03-ionic-palmette.png",
+      "output": "/artwork/night/03-ionic-palmette.png",
+      "prompt": "Use case: lighting-weather. Asset: one night-mode talk marker for Builder Miami's artwork library. Image 1 is the EDIT TARGET, a transparent daytime engraving; image 2 is a color, lighting and texture reference ONLY, do not import its scenery. Recreate the same symmetrical Ionic capital with a palmette rising above it and two elegant volutes, fine moonlit limestone and olive patina with very small copper details. Preserve the target's exact silhouette, orientation, elegant proportions, intricate etched lines and composition. Keep a TRUE TRANSPARENT background and comfortable margins around the entire subject. Render the object itself solid with natural soft moonlight, delicate ivory highlights and deep blue shadows so it reads beautifully against near-black navy #0b0d18. Sophisticated fine lithographic detail, small-scale ornamental design, restrained natural materials. No glow, halo, extra backdrop, labels or text. Not a negative or X-ray, not neon, not a cartoon or bulky sculptural redesign. ONE original marker, not a contact sheet.",
+      "generatedFile": "exec-5d69a029-7d46-4fff-9c79-14618a06bc43.png"
+    },
+    {
+      "id": "04-coastal-compass",
+      "target": "/artwork/originals/04-coastal-compass.png",
+      "output": "/artwork/night/04-coastal-compass.png",
+      "prompt": "Use case: lighting-weather. Asset: one night-mode talk marker for Builder Miami's artwork library. Image 1 is the EDIT TARGET, a transparent daytime engraving; image 2 is a color, lighting and texture reference ONLY, do not import its scenery. Recreate the same eight-point coastal compass star with the small acanthus scroll at lower left, ivory and slate-blue points with restrained olive detail, retain the tiny engraved copper sun emblem at center. Preserve the target's exact silhouette, orientation, elegant proportions, intricate etched lines and composition. Keep a TRUE TRANSPARENT background and comfortable margins around the entire subject. Render the object itself solid with natural soft moonlight, delicate ivory highlights and deep blue shadows so it reads beautifully against near-black navy #0b0d18. Sophisticated fine lithographic detail, small-scale ornamental design, restrained natural materials. No glow, halo, extra backdrop, labels or text. Not a negative or X-ray, not neon, not a cartoon or bulky sculptural redesign. ONE original marker, not a contact sheet.",
+      "generatedFile": "exec-aa81e39e-ff5f-4ffc-ad0d-674432d48a8e.png"
+    },
+    {
+      "id": "05-sail-and-swell",
+      "target": "/artwork/originals/05-sail-and-swell.png",
+      "output": "/artwork/night/05-sail-and-swell.png",
+      "prompt": "Use case: lighting-weather. Asset: one night-mode talk marker for Builder Miami's artwork library. Image 1 is the EDIT TARGET, a transparent daytime engraving; image 2 is a color, lighting and texture reference ONLY, do not import its scenery. Recreate the same little single-mast sailboat on three delicate waves, ivory sails, olive hull and terracotta pennant; change its small orange sun into an ivory moon. Preserve the target's exact silhouette, orientation, elegant proportions, intricate etched lines and composition. Keep a TRUE TRANSPARENT background and comfortable margins around the entire subject. Render the object itself solid with natural soft moonlight, delicate ivory highlights and deep blue shadows so it reads beautifully against near-black navy #0b0d18. Sophisticated fine lithographic detail, small-scale ornamental design, restrained natural materials. No glow, halo, extra backdrop, labels or text. Not a negative or X-ray, not neon, not a cartoon or bulky sculptural redesign. ONE original marker, not a contact sheet.",
+      "generatedFile": "exec-6478b548-b6ff-40e8-9363-ddb2859b7dbb.png"
+    }
+  ]
+}

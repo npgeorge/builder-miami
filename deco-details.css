@@ -44,3 +44,11 @@
 .event-credits a.host-profile strong,.event-hosts a.host-profile strong { color:inherit; }
 .event-credits a.host-profile:hover,.event-hosts a.host-profile:hover { color:var(--orange); text-decoration-color:currentColor; }
 .host-profile:focus-visible { outline:2px solid var(--orange); outline-offset:4px; }
+
+/* Event logistics stay beside the description on both overview pages. */
+.event-visit-links { display:flex; flex-wrap:wrap; align-items:center; gap:4px 24px; grid-column:1 / -1; margin:10px 0 4px; font:500 13px/1.5 var(--sans,Arial,sans-serif); }
+.event-visit-links a { display:inline-flex; align-items:center; gap:7px; min-height:44px; color:var(--orange); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:4px; }
+.event-visit-links a:hover { color:var(--ink); }
+.event-visit-links a:focus-visible { outline:2px solid currentColor; outline-offset:4px; }
+.event-visit-links svg { flex:none; fill:none; stroke:currentColor; stroke-width:1.5; }
+@media(max-width:700px) { .event-visit-links { margin:0; } }
