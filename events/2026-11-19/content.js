@@ -140,15 +140,6 @@ window.NOVEMBER_ROUNDTABLE = {
       "note": "Opinion; X blocked automated reading.",
       "verification": "Original URL opened; 403; description based on supplied agenda."
     },
-    "build-3-source-4": {
-      "title": "Anthropic · Designing Electronic Devices",
-      "url": "https://www.anthropic.com/research/claude-electronics-design",
-      "format": "Research + Video",
-      "date": "November 2026 reading list",
-      "summary": "Anthropic and Diode describe three AI-designed devices that human engineers assembled into working prototypes.",
-      "note": "Developer demonstration; durability and commercial certification remain open.",
-      "verification": "Original article read."
-    },
     "build-3-source-5": {
       "title": "Anthropic · Finding Real-World Vulnerabilities",
       "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
@@ -941,15 +932,6 @@ window.NOVEMBER_ROUNDTABLE = {
       "note": "Read alongside the Proton manifesto. Martin explicitly credits the CTO and labels his wording a paraphrase.",
       "verification": "Original X post read in browser November 19, 2026; workbook A054."
     },
-    "build-1-source-7": {
-      "title": "Moonlake · Simulation-Enabled Robot Learning",
-      "url": "https://moonlakeai.com/blog/simulation-enabled-scaling-paradigm",
-      "format": "Research + Demos",
-      "date": "October 2026",
-      "summary": "Moonlake uses calibrated simulations and agents to evaluate, diagnose and improve robot policies before testing them on physical hardware.",
-      "note": "Early company research across three manipulation tasks. The zero-shot experiments still use a real trajectory to calibrate the simulated environment.",
-      "verification": "Original Moonlake research article read November 19, 2026; method, tasks, calibration and reported results checked."
-    },
     "glowconeShowcase": {
       "title": "Glowcone · An Arcade That Pays You to Play",
       "showcaseTitle": "Glowcone’s Robot-Training Arcade",
@@ -969,6 +951,33 @@ window.NOVEMBER_ROUNDTABLE = {
       "date": "November 2026 showcase",
       "summary": "Body Shop explores the design of Vora Aegis: a machined aluminum body, maple base and warm recessed lighting that give personal AI a place in the home.",
       "verification": "Original Body Shop project page read in browser November 19, 2026; materials, construction and lighting details checked."
+    },
+    "build-2-source-6": {
+      "title": "Moonlake · Simulation-Enabled Robot Learning",
+      "url": "https://moonlakeai.com/blog/simulation-enabled-scaling-paradigm",
+      "format": "Research + Demos",
+      "date": "October 2026",
+      "summary": "Moonlake uses calibrated simulations and agents to evaluate, diagnose and improve robot policies before testing them on physical hardware.",
+      "note": "Early company research across three manipulation tasks. The zero-shot experiments still use a real trajectory to calibrate the simulated environment.",
+      "verification": "Original Moonlake research article read November 19, 2026; method, tasks, calibration and reported results checked."
+    },
+    "build-1-source-8": {
+      "title": "Anthropic · Designing Electronic Devices",
+      "url": "https://www.anthropic.com/research/claude-electronics-design",
+      "format": "Research + Video",
+      "date": "November 2026 reading list",
+      "summary": "Anthropic and Diode describe three AI-designed devices that human engineers assembled into working prototypes.",
+      "note": "Developer demonstration; durability and commercial certification remain open.",
+      "verification": "Original article read."
+    },
+    "spiralGrantsShowcase": {
+      "title": "Spiral Open Intelligence Grants",
+      "showcaseLabel": "Miami Local Showcase",
+      "url": "https://x.com/spiral_xyz/status/2123511535238865144",
+      "format": "X · Grant Announcement",
+      "date": "November 2026 showcase",
+      "summary": "Spiral is funding non-commercial, open-source AI projects that make intelligence more useful, open, and secure, with applications welcomed from builders around the world.",
+      "verification": "Original Spiral announcement read in browser November 19, 2026."
     }
   },
   "topics": [
@@ -986,13 +995,13 @@ window.NOVEMBER_ROUNDTABLE = {
       "cases": [
         {
           "id": "build-1",
-          "overview": "Matt Huang’s swarm-rider thesis asks how much work one person can direct. Architect Labs applies swarms to chip design; Skyfall says Steve operates businesses; Moonlake uses agents and simulation to improve robot policies. The scope reaches from software into physical work.",
+          "overview": "Matt Huang’s swarm-rider thesis asks how much work one person can direct. Architect Labs says agent swarms designed and verified its Frostbite CPU; Skyfall says Steve operates three acquired digital businesses. The scope now reaches from chip design to running companies.",
           "focusLabel": "Swarm Riders",
           "label": "Swarm Riders, Frostbite & Steve",
           "type": "Sources & Discussion",
           "date": "November 2026 · Notes updated Nov 19",
           "title": "Agent Swarms Meet the Balance Sheet",
-          "body": "Matt Huang’s swarm-rider thesis asks how much work one person can direct. Architect Labs reports using agent swarms to co-design Frostbite’s instruction set and chip architecture, verify the design, and produce its final chip layout. Skyfall says Steve operates three acquired digital businesses. A founder’s AI-pilled company account and Sequoia’s services thesis add context for organizing that work and turning it into a business. Moonlake adds a physical-world example: agents help diagnose failures and iterate on robot policies in calibrated simulations.",
+          "body": "Matt Huang’s swarm-rider thesis asks how much work one person can direct. Architect Labs reports using agent swarms to co-design Frostbite’s instruction set and chip architecture, verify the design, and produce its final chip layout. Skyfall says Steve operates three acquired digital businesses. A founder’s AI-pilled company account and Sequoia’s services thesis add context for organizing that work and turning it into a business. Anthropic and Diode also describe AI-designed electronic devices assembled by human engineers into working prototypes.",
           "questions": [
             "When one person can direct a swarm of agents, what kind of company becomes worth building?",
             "What would distinguish a durable business from an impressive automation demo?",
@@ -1006,7 +1015,7 @@ window.NOVEMBER_ROUNDTABLE = {
           "discussionPoints": [
             "Frostbite brings swarms into chip design. Architect Labs reports work spanning architecture, verification and optimization; the announcement’s performance claims are company-reported.",
             "Skyfall says Steve operates three acquired businesses; its autonomy and performance claims are company-reported.",
-            "Moonlake uses agents to diagnose robot-policy failures and guide simulation experiments. Its early results suggest a way to move more development work into simulation, while real-world calibration and evaluation remain necessary.",
+            "Anthropic and Diode describe three AI-designed electronic devices that human engineers assembled into working prototypes, extending the discussion from software and chip design to complete devices.",
             "The owner still sets direction and business-critical decisions. More automated work does not erase responsibility.",
             "The AI-pilled company account explores organizing work around agents. Sequoia’s earlier services thesis supplies context: sell a completed outcome, not just a tool."
           ],
@@ -1014,11 +1023,11 @@ window.NOVEMBER_ROUNDTABLE = {
             "build-1-source-1",
             "build-1-source-6",
             "build-1-source-3",
-            "build-1-source-7",
+            "build-1-source-8",
             "build-1-source-2",
             "build-1-source-4"
           ],
-          "caveat": "Frostbite, Steve and Moonlake’s results are company-reported. Huang and the company-building article offer perspectives; Sequoia’s March essay is background for the November examples.",
+          "caveat": "Frostbite and Steve’s results are company-reported. Huang and the company-building article offer perspectives; Sequoia’s March essay is background for the November examples. Working electronics prototypes do not establish commercial certification or long-term reliability.",
           "preview": {
             "src": "previews/build-1.webp",
             "source": "build-1-source-4",
@@ -1030,13 +1039,13 @@ window.NOVEMBER_ROUNDTABLE = {
         },
         {
           "id": "build-2",
-          "overview": "GR00T 2 transfers skills from human video and other robots, including zero-shot attempts at new tasks. Xiaomi demonstrates sustained factory work, while DeepMind expands what one model can do across tasks and robot types. AI is reducing how much robots need to be taught for each new job.",
+          "overview": "GR00T 2 transfers skills from human video and other robots. Xiaomi demonstrates sustained factory work, and DeepMind expands shared models across tasks and robot types. Moonlake adds simulation-based training and evaluation, reducing how much development must happen on physical robots.",
           "focusLabel": "Physical AI",
           "label": "GR00T 2, Xiaomi & Gemini Robotics",
           "type": "Sources & Discussion",
           "date": "November 2026 · Notes updated Nov 19",
           "title": "From Task-Specific Training to General Robot Skills",
-          "body": "Robot foundation models are making skills more transferable. GR00T 2 learns from human video and other robots; its zero-shot tests tackle tasks without task-specific training on the target robot. A few demonstrations improve performance further. Xiaomi’s factory example shows sustained work and anomaly recovery, while Gemini Robotics 2.5 extends a shared model across tasks and robot bodies. The opportunity is to make each new job easier to teach and deploy.",
+          "body": "Robot foundation models are making skills more transferable. GR00T 2 learns from human video and other robots; its zero-shot tests tackle tasks without task-specific training on the target robot. A few demonstrations improve performance further. Xiaomi’s factory example shows sustained work and anomaly recovery, while Gemini Robotics 2.5 extends a shared model across tasks and robot bodies. The opportunity is to make each new job easier to teach and deploy. Moonlake uses calibrated simulations to diagnose failures, improve robot policies and test transfer back to physical hardware.",
           "questions": [
             "What becomes possible when robots can generalize to work they haven’t been explicitly trained to do?",
             "Where is zero-shot performance useful today, and where do a few demonstrations or human oversight still make the difference?",
@@ -1051,12 +1060,14 @@ window.NOVEMBER_ROUNDTABLE = {
             "NVIDIA reports 40% zero-shot success across 50 tasks unseen on the target robot, rising to 95% after five demonstrations per task and fine-tuning. Prior training on human video and other robots still matters.",
             "Xiaomi reports an eight-hour factory sorting task with autonomous anomaly correction. This illustrates applied capability; the post does not say it was learned zero-shot.",
             "DeepMind evaluates Gemini Robotics 2.5 across 200 tasks and multiple robot types. Its Apollo factory proof of concept connects broader learned skills with production work.",
+            "Moonlake uses agents to diagnose robot-policy failures and guide simulation experiments. Its early results suggest a way to move more development work into simulation, while real-world calibration and evaluation remain necessary.",
             "Schaeffler’s humanoid assembly example adds another factory use case. The key questions are what transfers between jobs and how much new training, oversight and integration each deployment needs."
           ],
           "evidence": [
             "build-2-source-2",
             "build-2-source-4",
             "build-2-source-5",
+            "build-2-source-6",
             "build-2-source-1",
             "build-2-source-3"
           ],
@@ -1067,7 +1078,8 @@ window.NOVEMBER_ROUNDTABLE = {
             "caption": "DeepMind · Robotics",
             "alt": "DeepMind · Gemini Robotics 2.5 publisher artwork",
             "fit": "contain"
-          }
+          },
+          "overviewSourceCount": 4
         },
         {
           "id": "build-3",
@@ -1092,16 +1104,15 @@ window.NOVEMBER_ROUNDTABLE = {
             "DeepMind reports machine-checked proofs of selected security properties in Signal’s core implementation, with experts reviewing the specifications.",
             "Cloudflare’s published audit workflow distinguishes confirmed findings from candidates that still need validation.",
             "OpenVersions reviews claims when a new version is published and links each status to an explanation and sources. Papers, code and data can be searched and forked together; an evidence-support check is not the same as a mathematical proof or an independently reproduced result.",
-            "Anthropic shows both working electronics prototypes and vulnerability research. More capability raises the value of clear boundaries and independent checks."
+            "Anthropic’s vulnerability research raises the value of clear boundaries and independent checks."
           ],
           "evidence": [
             "build-3-source-1",
             "build-3-source-2",
             "build-3-source-6",
-            "build-3-source-4",
             "build-3-source-5"
           ],
-          "caveat": "Formal verification covers the properties and assumptions specified, not the entire Signal app. Evidence checks depend on the material supplied. Hardware prototypes do not establish commercial certification or long-term reliability.",
+          "caveat": "Formal verification covers the properties and assumptions specified, not the entire Signal app. Evidence checks depend on the material supplied.",
           "preview": {
             "src": "previews/build-3.webp",
             "source": "build-3-source-1",
@@ -1125,13 +1136,13 @@ window.NOVEMBER_ROUNDTABLE = {
       "cases": [
         {
           "id": "own-1",
-          "overview": "Revolut's self-hosting results and new Mac tools make owning more of the AI stack a practical choice. The trade is between control, operating effort and the quality each workload actually needs.",
+          "overview": "Rauch makes the case for owning your AI stack. Weight-space programming explores editing model weights directly, while Harbor pools Macs for local inference. Together, they point toward more control over both the models and the hardware you rely on.",
           "focusLabel": "Local Intelligence",
-          "label": "Revolut, Harbor & Local Intelligence",
+          "label": "Open Weights, Harbor & Local Intelligence",
           "type": "Sources & Discussion",
-          "date": "November 2026 · Notes prepared Nov 16",
+          "date": "November 2026 · Updated Nov 19",
           "title": "More Intelligence on Hardware You Control",
-          "body": "Revolut's self-hosting results and new Mac tools make owning more of the AI stack a practical choice. The trade is between control, operating effort and the quality each workload actually needs.",
+          "body": "Rauch makes the case for owning your AI stack. Weight-space programming explores editing model weights directly, while Harbor pools Macs for local inference. Together, they point toward more control over both the models and the hardware you rely on.",
           "questions": [
             "Which part of your AI stack would you most regret losing access to tomorrow, and what would it take to own it?",
             "When does self-hosting buy real independence, and when does it simply move your dependency from a model provider to hardware, maintenance and another license?",
@@ -1143,24 +1154,24 @@ window.NOVEMBER_ROUNDTABLE = {
             "What would you still rent?"
           ],
           "discussionPoints": [
-            "Revolut's David Abitbol reports a self-hosted GLM bill about 90% below its prior provider bills for roughly 2,000 engineers; earlier Gemini use also produced gains, so the timeline does not isolate GLM's effect.",
+            "The weight-space programming researchers report large gains on one small Qwen model after direct weight edits; that is an early experimental result, not proof that training is obsolete.",
             "AppleInsider describes Harbor as a Claris private preview for pooling Macs over Thunderbolt 5, rather than a generally available product.",
             "Osaurus reports 56 tokens per second on an M5 Max for Allosaurus v0.2, with about 27 GiB in RAM and a 54 GiB table on SSD; it requires a Mac with at least 48 GB of memory.",
-            "The weight-space programming researchers report large gains on one small Qwen model after direct weight edits; that is an early experimental result, not proof that training is obsolete."
+            "Revolut's David Abitbol reports a self-hosted GLM bill about 90% below its prior provider bills for roughly 2,000 engineers; earlier Gemini use also produced gains, so the timeline does not isolate GLM's effect."
           ],
           "evidence": [
             "own-1-source-1",
-            "own-1-source-2",
+            "own-1-source-5",
             "own-1-source-3",
             "own-1-source-4",
-            "own-1-source-5"
+            "own-1-source-2"
           ],
           "caveat": "",
           "preview": {
-            "src": "previews/own-1.png",
-            "source": "own-1-source-2",
-            "caption": "Revolut · Talk",
-            "alt": "Revolut's self-hosting playbook publisher artwork",
+            "src": "previews/weight-space-programming.png",
+            "source": "own-1-source-5",
+            "caption": "MIT CSAIL · Weight-Space Programming",
+            "alt": "Weight-space programming research diagram showing experiments that read, fix and improve neural networks by editing their weights.",
             "fit": "contain"
           }
         },
@@ -1193,8 +1204,8 @@ window.NOVEMBER_ROUNDTABLE = {
             "own-2-source-2",
             "own-2-source-3",
             "own-2-source-1",
-            "own-2-source-4",
-            "own-2-source-5"
+            "own-2-source-5",
+            "own-2-source-4"
           ],
           "caveat": "",
           "preview": {
@@ -1203,7 +1214,8 @@ window.NOVEMBER_ROUNDTABLE = {
             "caption": "Maple · Privacy",
             "alt": "Maple Work's privacy model publisher artwork",
             "fit": "contain"
-          }
+          },
+          "overviewSourceCount": 4
         },
         {
           "id": "own-3",
@@ -1306,13 +1318,13 @@ window.NOVEMBER_ROUNDTABLE = {
         },
         {
           "id": "delegate-2",
-          "overview": "Khosla calls it friction collapse: agents keep searching, comparing and following up when people would stop. Index explores the matches lost to search friction, while River describes reducing dependencies as building gets easier.",
+          "overview": "Khosla calls it friction collapse: agents keep searching, comparing and following up when people would stop. Index explores the matches lost to search friction, while Lieberman asks whether companies can overcome their own internal bottlenecks.",
           "focusLabel": "Friction Collapse",
           "label": "Khosla & the End of Inertia",
           "type": "Sources & Discussion",
-          "date": "November 2026 · Updated Nov 17",
+          "date": "November 2026 · Updated Nov 19",
           "title": "What Changes When Effort Stops Being the Filter?",
-          "body": "Khosla calls it friction collapse: agents keep searching, comparing and following up when people would stop. Index explores the matches lost to search friction, while River describes reducing dependencies as building gets easier.",
+          "body": "Khosla calls it friction collapse: agents keep searching, comparing and following up when people would stop. Index explores the matches lost to search friction, while Lieberman asks whether companies can overcome their own internal bottlenecks.",
           "questions": [
             "Which businesses create value, and which depend on customers being too busy to look elsewhere?",
             "Which friction should disappear, and which rules still protect fairness, privacy and meaningful commitments when everyone can act instantly?",
@@ -1332,8 +1344,8 @@ window.NOVEMBER_ROUNDTABLE = {
           "evidence": [
             "delegate-2-source-1",
             "delegate-2-source-2",
-            "delegate-2-source-3",
             "delegate-2-source-4",
+            "delegate-2-source-3",
             "delegate-2-source-5"
           ],
           "caveat": "Friction collapse is a thesis to examine. Removing effort can expand opportunity, but scarcity, trust and organizational change do not disappear with it.",
@@ -1343,7 +1355,8 @@ window.NOVEMBER_ROUNDTABLE = {
             "caption": "Index · Essay",
             "alt": "Index: The Economics of Good Luck publisher artwork",
             "fit": "contain"
-          }
+          },
+          "overviewSourceCount": 3
         },
         {
           "id": "delegate-3",
@@ -1379,10 +1392,10 @@ window.NOVEMBER_ROUNDTABLE = {
           ],
           "caveat": "Buzz is working collaboration software; broader agent markets remain a thesis. Proton’s memo and Uncle Bob’s post frame a change in engineering roles, while a16z’s charts provide an interpretation of economic data.",
           "preview": {
-            "src": "previews/buzz.png",
+            "src": "previews/buzz-official-logo.svg",
             "source": "delegate-3-source-1",
             "caption": "Buzz · Open-Source Workspace",
-            "alt": "Buzz official project artwork",
+            "alt": "Buzz’s official bee logo on its yellow brand background.",
             "fit": "contain"
           },
           "overviewSourceCount": 5
@@ -1686,6 +1699,7 @@ window.NOVEMBER_ROUNDTABLE = {
     "voraSponsor",
     "spiralSponsor",
     "voraDesignShowcase",
+    "spiralGrantsShowcase",
     "afaShowcase",
     "own-3-source-3",
     "own-1-source-4",
@@ -1707,6 +1721,7 @@ window.NOVEMBER_ROUNDTABLE = {
       "description": "Projects and learnings from builders in our community.",
       "sourceIds": [
         "voraDesignShowcase",
+        "spiralGrantsShowcase",
         "afaShowcase"
       ]
     },
