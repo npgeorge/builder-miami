@@ -569,33 +569,6 @@ window.NOVEMBER_ROUNDTABLE = {
       "note": "Investor thesis with hypothetical business models, including routing fees and retaining the difference between budget and price.",
       "verification": "Original Nov 10 a16z Frontier article read Nov 16, replacing the inaccessible X Article."
     },
-    "delegate-3-source-3": {
-      "title": "Buzz: Plugins and Agent Workflows",
-      "url": "https://x.com/Hello_World/status/2121298698265297003",
-      "format": "Video Thread",
-      "date": "November 2026 reading list",
-      "summary": "Thomas Petersen’s November 13 demo thread shows Buzz plugins, shared agent workflows and community tools.",
-      "note": "Builder demos and product plans should not be treated as independently measured outcomes.",
-      "verification": "Original thread from workbook N19, whose review records all fifteen posts; direct X fetch returned 403 Nov 17."
-    },
-    "delegate-3-source-4": {
-      "title": "Buzz: Run Your Own Relay",
-      "url": "https://github.com/block/buzz",
-      "format": "Code & Documentation",
-      "date": "November 2026 reading list",
-      "summary": "The Buzz relay project documents a self-hostable workspace where people and agents share rooms on infrastructure the community controls.",
-      "note": "Self-hosting gives infrastructure control but still requires administration, security and clear permissions.",
-      "verification": "Official project README read Nov 17; self-hostable relay and open-source implementation confirmed."
-    },
-    "delegate-3-source-5": {
-      "title": "Delaware's draft AI-company act",
-      "url": "https://publicmeetings.delaware.gov/Document/85240_Document.pdf",
-      "format": "Draft bill",
-      "date": "November 2026 reading list",
-      "summary": "The proposed AIC structure would place an AI agent in management while requiring a member, records and sandbox conditions.",
-      "note": "Draft, not enacted law; the capital requirement is bracketed, and the agenda's possible January vote is not a confirmed schedule.",
-      "verification": "Official PDF was inaccessible Nov 16; description relies on the workbook's detailed claim c, which records its earlier review."
-    },
     "govern-1-source-1": {
       "title": "NVIDIA: Open Weights & American AI Leadership",
       "url": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
@@ -870,12 +843,13 @@ window.NOVEMBER_ROUNDTABLE = {
     },
     "reading-a074": {
       "corpusId": "A074",
-      "title": "a16z: Jobs, AI Shopping, and the Economic Debate",
+      "title": "a16z: Charts of the Week, Job FUD Fades",
       "url": "https://www.a16z.news/p/charts-of-the-week-job-fud-fades",
       "format": "Data Commentary",
-      "summary": "a16z interprets employment and shopping trends in an optimistic assessment of AI's economic effects.",
-      "date": "October–November 2026 reading list",
-      "verification": "Original source reviewed November 17, 2026; selected from the supplied link corpus."
+      "summary": "a16z examines hiring trends, AI-referred shopping and the economics of inference, questioning a simple story of AI replacing jobs.",
+      "date": "October 30, 2026",
+      "verification": "Original article by Moses Sternstein read November 19, 2026; promoted from the further-reading list (workbook A074).",
+      "note": "Investor commentary on third-party data. AI-referred shopping is not the same as autonomous agent checkout, and correlations do not establish AI caused hiring changes."
     },
     "reading-n10": {
       "corpusId": "N10",
@@ -948,6 +922,53 @@ window.NOVEMBER_ROUNDTABLE = {
       "summary": "Block analyzes everyday bitcoin spending through Square, including purchase sizes, repeat payments, merchant categories and use of external wallets.",
       "note": "Square transaction data covers November 1, 2025 through October 15, 2026 and completed payments greater than $1. Repeat-payment analysis is limited to identifiable Cash App users; these findings do not describe all Bitcoin payments.",
       "verification": "Read the official report page November 19, 2026, including data scope and methodology notes. The page announces zero processing fees through December 31, 2027, while Square’s help article still lists December 31, 2026."
+    },
+    "delegate-3-source-6": {
+      "title": "Proton: The CTO’s AI Engineering Manifesto",
+      "url": "https://proton.me/blog/ai-manifesto",
+      "format": "CTO Letter",
+      "date": "November 1, 2026",
+      "summary": "Proton CTO Bart Butler argues that engineers should lead agents, redesign workflows and keep responsibility for quality and judgment.",
+      "note": "The original internal memo, published by its author. A proposed engineering direction, not evidence that human oversight is unnecessary.",
+      "verification": "Full first-party manifesto read November 19, 2026; original letter located from workbook A051 and paired with A054."
+    },
+    "delegate-3-source-7": {
+      "title": "Uncle Bob: Lead the Agents",
+      "url": "https://x.com/unclebobmartin/status/2116512351491084344",
+      "format": "X Post",
+      "date": "October 31, 2026",
+      "summary": "Robert C. Martin paraphrases Proton’s CTO: the engineer’s role shifts toward directing agents that write code.",
+      "note": "Read alongside the Proton manifesto. Martin explicitly credits the CTO and labels his wording a paraphrase.",
+      "verification": "Original X post read in browser November 19, 2026; workbook A054."
+    },
+    "build-1-source-7": {
+      "title": "Moonlake · Simulation-Enabled Robot Learning",
+      "url": "https://moonlakeai.com/blog/simulation-enabled-scaling-paradigm",
+      "format": "Research + Demos",
+      "date": "October 2026",
+      "summary": "Moonlake uses calibrated simulations and agents to evaluate, diagnose and improve robot policies before testing them on physical hardware.",
+      "note": "Early company research across three manipulation tasks. The zero-shot experiments still use a real trajectory to calibrate the simulated environment.",
+      "verification": "Original Moonlake research article read November 19, 2026; method, tasks, calibration and reported results checked."
+    },
+    "glowconeShowcase": {
+      "title": "Glowcone · An Arcade That Pays You to Play",
+      "showcaseTitle": "Glowcone’s Robot-Training Arcade",
+      "showcaseLabel": "Product Demo",
+      "url": "https://x.com/glowcone/status/2118159630111273438",
+      "format": "X · Video Demo",
+      "date": "November 4, 2026",
+      "summary": "An arcade concept that pays players to teleoperate robots, turning gameplay into training data for robot learning.",
+      "note": "The creator reports the concept and a planned San Francisco launch; claims of higher-quality data are not independently verified.",
+      "verification": "Original post read in browser November 19, 2026; video was not playable in the preview."
+    },
+    "voraDesignShowcase": {
+      "title": "Vora Industrial Design",
+      "showcaseLabel": "Miami Local Showcase",
+      "url": "https://www.body-shop.co/projects/vora",
+      "format": "Design Case Study + Videos",
+      "date": "November 2026 showcase",
+      "summary": "Body Shop explores the design of Vora Aegis: a machined aluminum body, maple base and warm recessed lighting that give personal AI a place in the home.",
+      "verification": "Original Body Shop project page read in browser November 19, 2026; materials, construction and lighting details checked."
     }
   },
   "topics": [
@@ -965,13 +986,13 @@ window.NOVEMBER_ROUNDTABLE = {
       "cases": [
         {
           "id": "build-1",
-          "overview": "Matt Huang’s swarm-rider thesis asks how much work one person can direct. Architect Labs says agent swarms designed and verified its Frostbite CPU; Skyfall says Steve operates three acquired digital businesses. The scope now reaches from chip design to running companies.",
+          "overview": "Matt Huang’s swarm-rider thesis asks how much work one person can direct. Architect Labs applies swarms to chip design; Skyfall says Steve operates businesses; Moonlake uses agents and simulation to improve robot policies. The scope reaches from software into physical work.",
           "focusLabel": "Swarm Riders",
           "label": "Swarm Riders, Frostbite & Steve",
           "type": "Sources & Discussion",
           "date": "November 2026 · Notes updated Nov 19",
           "title": "Agent Swarms Meet the Balance Sheet",
-          "body": "Matt Huang’s swarm-rider thesis asks how much work one person can direct. Architect Labs reports using agent swarms to co-design Frostbite’s instruction set and chip architecture, verify the design, and produce its final chip layout. Skyfall says Steve operates three acquired digital businesses. A founder’s AI-pilled company account and Sequoia’s services thesis add context for organizing that work and turning it into a business.",
+          "body": "Matt Huang’s swarm-rider thesis asks how much work one person can direct. Architect Labs reports using agent swarms to co-design Frostbite’s instruction set and chip architecture, verify the design, and produce its final chip layout. Skyfall says Steve operates three acquired digital businesses. A founder’s AI-pilled company account and Sequoia’s services thesis add context for organizing that work and turning it into a business. Moonlake adds a physical-world example: agents help diagnose failures and iterate on robot policies in calibrated simulations.",
           "questions": [
             "When one person can direct a swarm of agents, what kind of company becomes worth building?",
             "What would distinguish a durable business from an impressive automation demo?",
@@ -985,6 +1006,7 @@ window.NOVEMBER_ROUNDTABLE = {
           "discussionPoints": [
             "Frostbite brings swarms into chip design. Architect Labs reports work spanning architecture, verification and optimization; the announcement’s performance claims are company-reported.",
             "Skyfall says Steve operates three acquired businesses; its autonomy and performance claims are company-reported.",
+            "Moonlake uses agents to diagnose robot-policy failures and guide simulation experiments. Its early results suggest a way to move more development work into simulation, while real-world calibration and evaluation remain necessary.",
             "The owner still sets direction and business-critical decisions. More automated work does not erase responsibility.",
             "The AI-pilled company account explores organizing work around agents. Sequoia’s earlier services thesis supplies context: sell a completed outcome, not just a tool."
           ],
@@ -992,17 +1014,19 @@ window.NOVEMBER_ROUNDTABLE = {
             "build-1-source-1",
             "build-1-source-6",
             "build-1-source-3",
+            "build-1-source-7",
             "build-1-source-2",
             "build-1-source-4"
           ],
-          "caveat": "Frostbite and Steve’s results are company-reported. Huang and the company-building article offer perspectives; Sequoia’s March essay is background for the November examples.",
+          "caveat": "Frostbite, Steve and Moonlake’s results are company-reported. Huang and the company-building article offer perspectives; Sequoia’s March essay is background for the November examples.",
           "preview": {
             "src": "previews/build-1.webp",
             "source": "build-1-source-4",
             "caption": "Sequoia · Essay",
             "alt": "Sequoia · Services: The New Software publisher artwork",
             "fit": "contain"
-          }
+          },
+          "overviewSourceCount": 4
         },
         {
           "id": "build-2",
@@ -1323,13 +1347,13 @@ window.NOVEMBER_ROUNDTABLE = {
         },
         {
           "id": "delegate-3",
-          "overview": "Buzz gives people and different agents a shared workspace on a relay they can control. Guy Wuollet takes the idea into commerce: agents negotiating prices, delivery schedules and supply commitments across businesses.",
+          "overview": "Buzz connects people and agents; Wuollet sketches the markets between them. Proton’s CTO and Uncle Bob recast engineers as leaders of agents, while a16z examines what AI is changing in work and commerce.",
           "focusLabel": "Agent Networks",
           "label": "Buzz & the Networks Between Agents",
           "type": "Sources & Discussion",
-          "date": "November 2026 · Updated Nov 17",
+          "date": "November 2026 · Updated Nov 19",
           "title": "From Personal Assistants to Shared Markets",
-          "body": "Buzz gives people and different agents a shared workspace on a relay they can control. Guy Wuollet takes the idea into commerce: agents negotiating prices, delivery schedules and supply commitments across businesses.",
+          "body": "Buzz connects people and agents; Wuollet sketches the markets between them. Proton’s CTO and Uncle Bob recast engineers as leaders of agents, while a16z examines what AI is changing in work and commerce.",
           "questions": [
             "Can agents create open markets between people and businesses, or will we simply get a new set of middlemen?",
             "If agents negotiate for both buyers and suppliers, who sets the rules for identity, fees, binding commitments and disputes?",
@@ -1342,25 +1366,26 @@ window.NOVEMBER_ROUNDTABLE = {
           ],
           "discussionPoints": [
             "Buzz brings people and agents into shared channels and supports different agent tools. Its relay can be self-hosted, making control of the workspace part of the design.",
-            "The November 13 Buzz demo thread shows plugins and shared workflows. It is a closer look at collaboration infrastructure, not evidence that an open business marketplace is already complete.",
             "Wuollet’s November 10 essay proposes networks where suppliers respond to agents’ requests. Business procurement combines price with delivery schedules, payment terms and future supply commitments.",
-            "The network still needs authority to commit, records of agreed terms and a way to resolve failures. Delaware’s proposed AI-company structure raises a related accountability question; it remains a draft."
+            "Proton’s CTO argues that engineers should direct agents and rethink workflows, while retaining expertise, tests and accountability. Uncle Bob’s response distills that shift into leading agents rather than treating them only as coding assistants.",
+            "a16z’s charts connect hiring, AI-assisted shopping and inference economics. Its shopping data concerns people arriving through AI referrals, not proof that agents are already completing purchases on their own."
           ],
           "evidence": [
             "delegate-3-source-1",
             "delegate-3-source-2",
-            "delegate-3-source-3",
-            "delegate-3-source-4",
-            "delegate-3-source-5"
+            "reading-a074",
+            "delegate-3-source-6",
+            "delegate-3-source-7"
           ],
-          "caveat": "Buzz is working collaboration software; the broader commerce examples are proposals. The Delaware item is a draft, not an enacted AI-company law.",
+          "caveat": "Buzz is working collaboration software; broader agent markets remain a thesis. Proton’s memo and Uncle Bob’s post frame a change in engineering roles, while a16z’s charts provide an interpretation of economic data.",
           "preview": {
             "src": "previews/buzz.png",
             "source": "delegate-3-source-1",
             "caption": "Buzz · Open-Source Workspace",
             "alt": "Buzz official project artwork",
             "fit": "contain"
-          }
+          },
+          "overviewSourceCount": 5
         }
       ],
       "intro": "Our economy assumes people have limited time to search, negotiate, switch providers, and follow up. Agents challenge those assumptions. As personal agents meet business agents, which frictions disappear, which rules need rebuilding, and who captures the value?",
@@ -1660,10 +1685,12 @@ window.NOVEMBER_ROUNDTABLE = {
   "showcaseSourceIds": [
     "voraSponsor",
     "spiralSponsor",
+    "voraDesignShowcase",
     "afaShowcase",
     "own-3-source-3",
     "own-1-source-4",
-    "build-2-source-2"
+    "build-2-source-2",
+    "glowconeShowcase"
   ],
   "showcaseGroups": [
     {
@@ -1679,6 +1706,7 @@ window.NOVEMBER_ROUNDTABLE = {
       "title": "Miami Local Showcase",
       "description": "Projects and learnings from builders in our community.",
       "sourceIds": [
+        "voraDesignShowcase",
         "afaShowcase"
       ]
     },
@@ -1689,7 +1717,8 @@ window.NOVEMBER_ROUNDTABLE = {
       "sourceIds": [
         "own-3-source-3",
         "own-1-source-4",
-        "build-2-source-2"
+        "build-2-source-2",
+        "glowconeShowcase"
       ]
     }
   ],
@@ -1711,8 +1740,7 @@ window.NOVEMBER_ROUNDTABLE = {
     "agents": [
       "reading-b138",
       "reading-b143",
-      "reading-b175",
-      "reading-a074"
+      "reading-b175"
     ],
     "power": [
       "govern-2-source-3",
