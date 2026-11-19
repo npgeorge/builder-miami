@@ -58,3 +58,14 @@
 .deco-discussion .overview-discussion .case-principle { margin-bottom:24px; }
 
 .deco-discussion .overview-card .source-list { grid-template-rows:repeat(var(--overview-source-count,3),minmax(min-content,1fr)); }
+
+.deco-discussion .room-art { width:min(100%,850px); margin:28px auto 0; }
+.deco-discussion .room-art img { display:block; width:100%; height:auto; border:1px solid var(--line); }
+
+/* Complementary, quiet colors for the two discussion entry points. */
+.deco-discussion .home-action--room { --action-bg:#fcf5ef; --action-border:#e3d8cb; --action-hover:#f8ede3; }
+.deco-discussion .home-action--points { --action-bg:#f3f5ef; --action-border:#d8dece; --action-hover:#e9eee2; }
+:root[data-theme="night"] .deco-discussion .home-action--room { --action-bg:#242029; --action-border:#5a4544; --action-hover:#30272e; }
+:root[data-theme="night"] .deco-discussion .home-action--points { --action-bg:#1b292b; --action-border:#3e5751; --action-hover:#233633; }
+html[data-theme] .deco-discussion .home-buttons .home-action { min-height:52px; background:var(--action-bg); border-color:var(--action-border); color:var(--ink); }
+html[data-theme] .deco-discussion .home-buttons .home-action:hover { background:var(--action-hover); border-color:var(--action-border); color:var(--ink); }
